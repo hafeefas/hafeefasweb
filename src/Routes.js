@@ -11,7 +11,6 @@ return (
     <Router>
         <Route exact path="/Navbarr"  element = {<Navbarr/>} />
         <Route exact path="/Contactus" element= {<ContactUs/>}/>
-        <Route exact path="/Purpose" element={<Purpose/>} />
     </Router>
 
     );
