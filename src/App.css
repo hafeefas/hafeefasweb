@@ -26,7 +26,7 @@
 #navhov{
  border:solid;
  border-color: lightpink;
- padding: 10px;
+ padding: 15px;
  transition: 0.5s ease;
  border-radius: 7px;
 } 
@@ -34,14 +34,20 @@
   border-color: lightpink;
   box-shadow: red;
   color: rgb(255, 255, 255);
-    background: white;
+    background: pink;
     opacity: 0.3s;
 }
 #art{
-  height: 80vh;
-  padding-Top:30px;
-  border-Radius:1000px;
+  height: 50vh;
+  padding-Top:20px;
+  border-Radius:500px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vh;
 }
+
 #a {
   color: inherit;
   text-decoration: none;
@@ -175,12 +181,11 @@ s:hover::before {
 
 #cards
 {
-  width: 25rem;
+   width: 25rem;
    height:25rem; 
    text-align:center;
    border: solid;
    margin-Top:40px;
-   /* padding-Top:5px; */
 } 
 #darkerpink{
   color:  #ff9ec8;
@@ -240,6 +245,16 @@ s:hover::before {
 .underlineintro{
   text-shadow:  1px 0.5px  hotpink;
 }
+.resume{
+  text-shadow:  1px 0.5px  hotpink;
+}
+.resume:hover{
+  opacity: 1s;
+  border:solid;
+  transition: width 0.9 ease;
+  transition: width 0.9s ease;
+  -webkit-transition: width 0.9s ease;
+}
 .underline{
   color:pink;
   text-shadow:  1px 1px  hotpink;
@@ -264,16 +279,55 @@ s:hover::before {
   background: pink;
 }
 
-.image {
+/* .image {
   transition: 1s ease;
-}
+} */
 
-.image:hover{
+/* COOL FOR ZOOMING BUT NOT MOBILE FRIENDLY */
+/* .image:hover{
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   transition: 1s ease;
-  } 
+  }  */
+.contactBox{
+  text-align: center;
+  border: 5px solid pink;
+  border-radius: 10px;
+  /* margin-left: 510px; THIS MAKES THE WEB NOT MOBILE FRIENDLY! */
+  padding-left: 30px;
+  padding-right: 30px;
+  padding:10px;
+  width: 60%;  /*this isnt really best for mobile */
+  /* THE FOLLOWING 3 MAKES THE WEB MOBILE FRIENDLY */
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#contactFont{
+  color:white;
+}
+
+
+#contactbutton{
+  font-size: 25px;
+  border:solid;
+  background-color: pink;
+  background: rgb(255, 185, 197);
+  padding: 10px;
+  transition: 0.5s ease;
+  border-radius: 7px;
+  color:pink;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contactbutton:hover{
+  border-color: lightpink;
+  color: rgb(250, 121, 143);
+    background: rgb(255, 67, 98);
+    opacity: 0.3s;
+  }
+
   /* Shrink Image CSS
 Add the following CSS:
 

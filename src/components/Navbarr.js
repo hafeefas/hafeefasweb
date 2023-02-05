@@ -8,7 +8,12 @@ import Navbar from 'react-bootstrap/Navbar';
 
     <Navbar variant="dark" expand="lg" >
       <Container>
-        <Navbar.Brand href="#home" id="navhov"> <em className="normalfont" style={{color:"pink"}}> Hafeefa's </em>🎀 </Navbar.Brand>
+        <Navbar.Brand> 
+            <a href= "mailto:hafeefas47@gmail.com" 
+              target="_blank" style={{ textDecoration:"none"}} id="navhov"><em className="normalfont" 
+              style={{color:"white"}}> Contact me </em> 
+            </a> 
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -24,17 +29,6 @@ import Navbar from 'react-bootstrap/Navbar';
               className='GL'
               style={{width:"5.5vh"}}/>
             </Nav.Link>
-            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
