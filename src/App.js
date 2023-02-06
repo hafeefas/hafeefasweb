@@ -171,60 +171,55 @@ color:"pink" ,padding:"10px"}}
 
       {/* beginning of why exactly */}
 
-<div style={{border:"solid",borderBlockColor:'pink', borderRadius:"10px", borderWidth:"5px",padding:"15px"}}>
+<div style={{border:"solid",borderBlockColor:'pink', borderRadius:"10px", borderWidth:"5px",padding:"45px",
+ maxWidth:"100%" , height:"auto"}}>
 
     <br/>   
-      <p style={{textAlign:"center", fontSize:"40px", paddingBottom:"5px"}} className="underline">
-         Why exactly do I want to be a software engineer? </p>
+      <p 
+          style={{textAlign:"center", fontSize:"40px", paddingBottom:"5px"}} 
+            className="underline" id="pink">
+         Why exactly do I want to be a software engineer? 
+      </p>
 
     <br/> 
 {/* first */}
 
-    <Card className="bg-light text-white" style={{paddingBottom:"228.5px" }}>
-      {/* <Card.Img src="holder.js/100px270" alt="Card image" /> */}
-      <Card.ImgOverlay>
-        <Card.Title className="normalfont" id="secondCardTitle" style={{textAlign:"center"}}>It's fun!</Card.Title>
-        <Card.Text className="normalfont" id="darkerpink" style={{textAlign:"center", paddingTop:"5px"}}>
+   
+    <Card className="bg-light text-white" style={{paddingBottom:"50px", textAlign:"center", border:"solid white"}}>
+      {/* <Card.Header as="h5">Featured</Card.Header> */}
+      <Card.Body>
+        <Card.Title  className="normalfont" id= "secondCardTitle" style={{fontSize:"35px"}} > 
+          <em> It's fun! </em>
+          </Card.Title>
+        <Card.Text id="darkerpink" style={{ paddingTop:"5px", fontSize:"18px"}}>
           During an internship I had during January 2023, I worked in a team of 5 and we
           were able to build a complete marketplace full-stack website. 
-          Building strong connections made the internship so much fun. That's one of the highlights
-          of being a software engineer, working in cooperative teams and aiming for a common goal!
+          Building strong connections, worrking together and striving for the same goal
+           made the internship so much fun. That's one of the highlights
+          of being a software engineer, working in cooperative teams and aiming for a common target!
         </Card.Text>
-        <Card.Text></Card.Text>
-      </Card.ImgOverlay>
+      </Card.Body>
     </Card>
-
+    <br/>
     <br/> 
     {/* second */}
 
-    <Card className="bg-light text-white" style={{paddingBottom:"220px"}}>
-      {/* <Card.Img src="holder.js/100px270" alt="Card image" /> */}
-      <Card.ImgOverlay>
-        <Card.Title className="normalfont" id= "secondCardTitle" style={{textAlign:"center"}} >I love to problem solve!</Card.Title>
-        <Card.Text className="normalfont" id="darkerpink" style={{textAlign:"center", paddingTop:"5px"}}>
-           I personally enjoy problem solving
+  
+<br/>
+    <Card className="bg-light text-white" 
+      style={{paddingBottom:"50px", border:"solid white", textAlign:"center"}}>
+      {/* <Card.Header as="h5">Featured</Card.Header> */}
+      <Card.Body>
+        <Card.Title  id= "secondCardTitle" style={{fontSize:"35px"}} > <em>I love to problem solve!</em></Card.Title>
+        <Card.Text id="darkerpink" style={{paddingTop:"5px",  fontSize:"18px"}}>
+          I personally enjoy problem solving
           very much. I love the challenge it gives to my brain, and I learned I really work best when working in 
           a problem solving environment! When I find the solution to my problems, it just makes me want
           to celebrate!
         </Card.Text>
-        <Card.Text></Card.Text>
-      </Card.ImgOverlay>
+      </Card.Body>
     </Card>
-
     <br/>
-    {/* third */}
-
-    {/* <Card className="bg-light text-white" style={{paddingBottom:"220px"}}> */}
-      {/* <Card.Img src="holder.js/100px270" alt="Card image" /> */}
-      {/* <Card.ImgOverlay>
-        <Card.Title className="normalfont" id="secondCardTitle" style={{textAlign:"center"}}>Card title</Card.Title>
-        <Card.Text className="normalfont" id="darkerpink" style={{textAlign:"center"}}>
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </Card.Text>
-        <Card.Text></Card.Text>
-      </Card.ImgOverlay>
-    </Card> */}
   
 {/* pink line design */}
 <br></br> <br/> 
@@ -237,16 +232,18 @@ color:"pink" ,padding:"10px"}}
 
   {/* <Card style={{ width: '70vh', maxWidth: "50%", height: "auto"}}></Card> */}
   
-    <CardGroup>
-      <Card style={{maxWidth: "100%", height: "auto",  borderWidth:"2px"}}>
+    <CardGroup >
+      <Card className="bg-light" style={{maxWidth: "100%", height: "auto",  borderWidth:"2px"}} >
         <Card.Img variant="top" src="https://www.makerstations.io/content/images/2022/08/jb-bardoles-desk-setup-02.jpg" />
         <Card.Body>
-          <Card.Title style={{color:"black", textDecoration:"underline"}}>What I used in order to build this website</Card.Title>
-          <Card.Text style={{paddingTop:"10px"}}>
+          <Card.Title style={{color:"black", fontSize:"30px", textDecoration:"underline", paddingBottom:"5px"}} 
+          id="darkerpink"> 
+            What I used in order to build this website</Card.Title>
+          <Card.Text  id="darkerpink" style={{paddingTop:"10px", fontSize:"20px", color:"black"}}>
             <ul>
               <li> Editor: VSCode</li>
-              <li> Open source: Node.js </li>
               <li> Framework: Bootstrap </li>
+              <li> Open source: Node.js, Git, Github </li>
               <li> Languages: React, HTML, JavaScript, CSS </li>
             </ul>
           </Card.Text>
@@ -258,14 +255,14 @@ color:"pink" ,padding:"10px"}}
 
       {/* second card */}
 
-      <Card style={{maxWidth: "100%", height: "auto",  borderWidth:"2px"}} >
+      <Card className="bg-light" style={{maxWidth: "100%", height: "auto",  borderWidth:"2px"}} >
         <Card.Img variant="top" src="https://www.makerstations.io/content/images/size/w1384/2022/08/jb-bardoles-desk-setup-01.jpg" />
         <Card.Body>
-          <Card.Title style={{color:"black", textDecoration:"underline"}}>My experience with building sites </Card.Title>
-          <Card.Text id="glow" style={{paddingTop:"10px"}}>
+          <Card.Title style={{color:"black", fontSize:"30px", textDecoration:"underline", paddingBottom:"5px"}}>My experience with building sites </Card.Title>
+          <Card.Text  style={{paddingTop:"10px", fontSize:"20px",color:"black"}} >
             <li> 9 months experience with front end</li>
             <li> One web development certificate</li>
-            <li> Built a full stack marketplace website for business processes in a team of five
+            <li> Have built a full stack marketplace website for business processes in a team of five
               in under three weeks
             </li>
           </Card.Text>
@@ -275,21 +272,6 @@ color:"pink" ,padding:"10px"}}
         </Card.Footer> */}
       </Card>
 
-      {/* third card */}
-      {/* <Card style={{maxWidth: "100%", height: "auto"}}>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer> */}
-      {/* </Card> */}
     </CardGroup>
     
  
@@ -302,7 +284,7 @@ color:"pink" ,padding:"10px"}}
    <ContactUs/>
    <br/>
       <p style={{textAlign:"center", fontSize:"15px"}} id="underlineintro">
-        <em>Desgined and developed by Hafeefa Sultan on February 5, 2023. </em> 
+        <em>Desgined and developed by Hafeefa Sultan on February 6, 2023. </em> 
       </p>
     <br/>
     </Container>

@@ -109,6 +109,12 @@ visibility: visible;
     opacity: 1;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 }
+.pink{
+  color:rgb(255, 202, 211);
+}
+#pink{
+  color:rgb(255, 202, 211);
+}
 .normalfont{
   color: pink;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -241,7 +247,8 @@ s:hover::before {
 #secondCardTitle{
   text-Decoration:underline;
    font-Size:30px; 
-  color: hotpink;
+   color: #ff9ec8;
+  /* color: rgb(254, 1, 127); */
 
 }
 .underlineintro{
@@ -328,6 +335,22 @@ s:hover::before {
   color: rgb(250, 121, 143);
     background: rgb(255, 67, 98);
     opacity: 0.3s;
+  }
+  .glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
   }
 
   /* Shrink Image CSS
