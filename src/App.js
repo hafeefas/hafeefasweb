@@ -7,6 +7,10 @@ import Col from 'react-bootstrap/Col';
 import Navbarr from './components/Navbarr';
 import Card from 'react-bootstrap/Card';
 import ContactUs from './components/Contactus';
+import ListGroup from 'react-bootstrap/ListGroup';
+import CardGroup from 'react-bootstrap/CardGroup';
+
+
 
 
 function App() {
@@ -32,8 +36,11 @@ function App() {
                 className="underlineintro"> 
                 Hello world, nice to meet you! My name is <em style={{textDecoration:"underline"}}>Hafeefa Sultan</em> 🎀 </h3>
                 
-              <h5 style={{ 
-                 color:'lightpink',padding:"20px", textAlign:"center"}}>
+              <h5 style={{color:'lightpink',
+              padding:"20px", 
+              textAlign:"center", 
+              textDecoration:"underline",
+              textDecorationColor:"pink"}}>
                  <strong>I'm an aspiring software engineer based in New York City!</strong> </h5>
           {/* </Col>
         <Col> */}
@@ -120,7 +127,9 @@ color:"pink" ,padding:"10px"}}
       </Row>
 <br/><br/> <br/> <br/> <br/>
 
-    <p id="a" className="underlineintro"style={{paddingBottom:"10px",fontSize:"60px", textAlign:"center"}}>
+    <p id="a" 
+          className="underlineintro"
+          style={{paddingBottom:"10px",fontSize:"50px", textAlign:"center"}}>
         Learn more about me and my objectives!
     </p>
 
@@ -162,7 +171,7 @@ color:"pink" ,padding:"10px"}}
 
       {/* beginning of why exactly */}
 
-<div style={{border:"solid",borderBlockColor:'pink', borderRadius:"10px", padding:"30px"}}>
+<div style={{border:"solid",borderBlockColor:'pink', borderRadius:"10px", borderWidth:"5px",padding:"15px"}}>
 
     <br/>   
       <p style={{textAlign:"center", fontSize:"40px", paddingBottom:"5px"}} className="underline">
@@ -195,7 +204,7 @@ color:"pink" ,padding:"10px"}}
         <Card.Text className="normalfont" id="darkerpink" style={{textAlign:"center", paddingTop:"5px"}}>
            I personally enjoy problem solving
           very much. I love the challenge it gives to my brain, and I learned I really work best when working in 
-          a problem solving environment! When I find the solution to my problems, then it makes me want
+          a problem solving environment! When I find the solution to my problems, it just makes me want
           to celebrate!
         </Card.Text>
         <Card.Text></Card.Text>
@@ -205,9 +214,9 @@ color:"pink" ,padding:"10px"}}
     <br/>
     {/* third */}
 
-    <Card className="bg-light text-white" style={{paddingBottom:"220px"}}>
+    {/* <Card className="bg-light text-white" style={{paddingBottom:"220px"}}> */}
       {/* <Card.Img src="holder.js/100px270" alt="Card image" /> */}
-      <Card.ImgOverlay>
+      {/* <Card.ImgOverlay>
         <Card.Title className="normalfont" id="secondCardTitle" style={{textAlign:"center"}}>Card title</Card.Title>
         <Card.Text className="normalfont" id="darkerpink" style={{textAlign:"center"}}>
           This is a wider card with supporting text below as a natural lead-in
@@ -215,17 +224,78 @@ color:"pink" ,padding:"10px"}}
         </Card.Text>
         <Card.Text></Card.Text>
       </Card.ImgOverlay>
-    </Card>
+    </Card> */}
   
 {/* pink line design */}
 <br></br> <br/> 
 
     </div>
   <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
 
+  {/* <Card style={{ width: '70vh', maxWidth: "50%", height: "auto"}}></Card> */}
+  
+    <CardGroup>
+      <Card style={{maxWidth: "100%", height: "auto",  borderWidth:"2px"}}>
+        <Card.Img variant="top" src="https://www.makerstations.io/content/images/2022/08/jb-bardoles-desk-setup-02.jpg" />
+        <Card.Body>
+          <Card.Title style={{color:"black", textDecoration:"underline"}}>What I used in order to build this website</Card.Title>
+          <Card.Text style={{paddingTop:"10px"}}>
+            <ul>
+              <li> Editor: VSCode</li>
+              <li> Open source: Node.js </li>
+              <li> Framework: Bootstrap </li>
+              <li> Languages: React, HTML, JavaScript, CSS </li>
+            </ul>
+          </Card.Text>
+        </Card.Body>
+         {/* <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>  */}
+      </Card> 
+
+      {/* second card */}
+
+      <Card style={{maxWidth: "100%", height: "auto",  borderWidth:"2px"}} >
+        <Card.Img variant="top" src="https://www.makerstations.io/content/images/size/w1384/2022/08/jb-bardoles-desk-setup-01.jpg" />
+        <Card.Body>
+          <Card.Title style={{color:"black", textDecoration:"underline"}}>My experience with building sites </Card.Title>
+          <Card.Text id="glow" style={{paddingTop:"10px"}}>
+            <li> 9 months experience with front end</li>
+            <li> One web development certificate</li>
+            <li> Built a full stack marketplace website for business processes in a team of five
+              in under three weeks
+            </li>
+          </Card.Text>
+        </Card.Body>
+        {/* <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer> */}
+      </Card>
+
+      {/* third card */}
+      {/* <Card style={{maxWidth: "100%", height: "auto"}}>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This card has even longer content than the
+            first to show that equal height action.
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer> */}
+      {/* </Card> */}
+    </CardGroup>
+    
+ 
 <br/> <br/>
 <br/><br/> 
-   
+<br/> <br/>
 
    
    

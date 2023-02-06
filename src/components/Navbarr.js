@@ -23,6 +23,8 @@ import Navbar from 'react-bootstrap/Navbar';
               className='GL'
               style={{width:"6.2vh"}}/>
             </Nav.Link>
+            <Nav.Link>
+            </Nav.Link>
             <Nav.Link href="https://www.linkedin.com/in/hafeefa-sultan-1a3785227/" target="_blank" >
               <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
               alt="linkedin"
