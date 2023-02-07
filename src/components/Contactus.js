@@ -54,8 +54,7 @@ const Contactus = () => {
         <Col xs lg="2">
           <a href="https://github.com/hafeefas" 
           target="_blank" 
-          className="resume" 
-          id="underlineintro"
+          // className="resume" 
           style={{color:"black", textDecoration:"none"}}>
             <p style={{fontSize:"25px", paddingLeft:"110px"}}>Github</p> 
               </a>     
@@ -65,7 +64,6 @@ const Contactus = () => {
           <a href ="https://docs.google.com/document/d/1ImeRckQpQiwg_0XFUt8ViyBqMJlgxy0c6X7HdazpRAQ/edit?usp=sharing"
           target="_blank" 
           className="resume" 
-          id="underlineintro"
           style={{color:"black", textDecoration:"none"}} > 
             <p style={{fontSize:"24.7px"}}>Resume</p> 
           </a>  
@@ -74,8 +72,7 @@ const Contactus = () => {
         <Col xs lg="2">
         <a href="https://www.linkedin.com/in/hafeefa-sultan-1a3785227/" 
           target="_blank" 
-          className="resume" 
-          id="underlineintro"
+          // className="resume" 
           style={{color:"black", textDecoration:"none"}}>
             <p style={{fontSize:"24.4px"}}>Linkedin</p> 
               </a>     

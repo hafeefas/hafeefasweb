@@ -257,9 +257,9 @@ s:hover::before {
 #underlineintro{
   text-shadow:  1px 0.2px  hotpink;
 }
-.resume{
-  text-shadow:  1px 0.5px  hotpink;
-}
+/* .resume{
+  text-shadow:  1px 0.2px  pink;
+} */
 .resume:hover{
   opacity: 1s;
   border:solid;
