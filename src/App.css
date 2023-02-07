@@ -153,7 +153,7 @@ visibility: visible;
 #why{
   font-size: 20px;
   text-shadow: white;
-  text-shadow:  0.7px 0.7px  hotpink;
+  text-shadow:  0.7px 0.2px  hotpink;
   padding-top: 10px;
 
 }
@@ -252,10 +252,10 @@ s:hover::before {
 
 }
 .underlineintro{
-  text-shadow:  1px 0.5px  hotpink;
+  text-shadow:  1px 0.2px  pink;
 }
 #underlineintro{
-  text-shadow:  1px 0.5px  hotpink;
+  text-shadow:  1px 0.2px  hotpink;
 }
 .resume{
   text-shadow:  1px 0.5px  hotpink;
@@ -303,7 +303,7 @@ s:hover::before {
   transition: 1s ease;
   }  */
 #aspiringfont{
-  text-shadow:  0.5px 0.5px  hotpink;
+  text-shadow:  0.5px 0.2px  pink;
 }
 #contactFont{
   color:white;
