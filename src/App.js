@@ -17,11 +17,11 @@ function App() {
   return (
     <>
    
-    <div id="backgroundColor" className="normalfont">
-
+    <div className="normalfont">
+    {/* id="backgroundColor" */}
    
     <Navbarr></Navbarr>
-<br/> <br/> <br/> <br/> 
+<br/> <br/> <br/>
     
 <Container>
 
@@ -29,19 +29,20 @@ function App() {
       {/* <Col style={{paddingTop:"150px"}}> */}
             <h1 className="normalfont"> <strong></strong> </h1>
               <h3 style=
-                {{color:'lightpink' , 
+                {{color:'black' , 
                 fontSize:"35px", paddingLeft:"30px" ,
                 paddingBottom:"50px", textAlign:"center", 
                 borderRadius:"20px"}}
                 className="underlineintro"> 
                 Hello world, nice to meet you! My name is <em style={{textDecoration:"underline"}}>Hafeefa Sultan</em> 🎀 </h3>
                 
-              <h5 style={{color:'lightpink',
+              <h5 style={{color:'black',
               padding:"20px", 
               textAlign:"center", 
               textDecoration:"underline",
-              textDecorationColor:"pink"}}>
-                 <strong>I'm an aspiring software engineer based in New York City!</strong> </h5>
+              textDecorationColor:"black",
+              paddingBottom:"22px"}}>
+                 <strong  id="aspiringfont">I'm an aspiring software engineer based in New York City!</strong> </h5>
           {/* </Col>
         <Col> */}
 
@@ -52,8 +53,12 @@ function App() {
              <br/>
     
 {/* </div> */}
- <h1 style={{textAlign:"center", paddingTop:"15px", fontSize:"25px"}}><em style={{ textDecoration: "underline", 
-color:"pink" ,padding:"10px"}}
+      <h1 
+        style={{textAlign:"center", 
+        paddingTop:"15px", 
+        fontSize:"25px"}}>
+      <em style={{ textDecoration: "underline", 
+        color:"black" ,padding:"10px"}}
       className="underlineintro">
         Learn more about me below!
         </em>
@@ -61,6 +66,7 @@ color:"pink" ,padding:"10px"}}
             <br/> <br/>
              <br/> <br/>
              <br/> <br/>
+             <br/>
        {/* first card */}
 
       <Row style= {{paddingTop:"10px"}}>
@@ -117,7 +123,7 @@ color:"pink" ,padding:"10px"}}
         <Card.Text>
           I use java in my cs classes, and do enjoy using it in order to build programs.
           Though I use it in class, I would love to have real world experience
-          with java and build projects more often with it. <br/>
+          with java and more real world applications with it. <br/>
 
           <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem.jpg" 
           id="picture" style={{height:"14vh", marginTop:"35px"}}/>
@@ -125,14 +131,14 @@ color:"pink" ,padding:"10px"}}
       </Card.Body>
     </Card></Col>
       </Row>
-<br/><br/> <br/> <br/> <br/>
+<br/><br/> <br/> <br/> <br/> <br/> <br/>
 
     <p id="a" 
           className="underlineintro"
           style={{paddingBottom:"10px",fontSize:"50px", textAlign:"center"}}>
         Learn more about me and my objectives!
     </p>
-
+<br/>
 {/* my own picture */}
 <Container>
     <Row>
@@ -167,17 +173,17 @@ color:"pink" ,padding:"10px"}}
   </Container>
   
     <br/><br/> <br/> <br/> <br/>
-
+        <br/> 
 
       {/* beginning of why exactly */}
 
-<div style={{border:"solid",borderBlockColor:'pink', borderRadius:"10px", borderWidth:"5px",padding:"45px",
+<div style={{border:"solid black", borderRadius:"10px", borderWidth:"5px",padding:"45px",
  maxWidth:"100%" , height:"auto"}}>
 
     <br/>   
       <p 
-          style={{textAlign:"center", fontSize:"40px", paddingBottom:"5px"}} 
-            className="underline" id="pink">
+          style={{textAlign:"center", fontSize:"40px", paddingBottom:"5px", color:"black"}} 
+            className="underline">
          Why exactly do I want to be a software engineer? 
       </p>
 
@@ -185,13 +191,12 @@ color:"pink" ,padding:"10px"}}
 {/* first */}
 
    
-    <Card className="bg-light text-white" style={{paddingBottom:"50px", textAlign:"center", border:"solid white"}}>
-      {/* <Card.Header as="h5">Featured</Card.Header> */}
+    <Card className="bg-light text-black" style={{paddingBottom:"50px", textAlign:"center", border:"solid black"}}>
       <Card.Body>
-        <Card.Title  className="normalfont" id= "secondCardTitle" style={{fontSize:"35px"}} > 
+        <Card.Title className="underlineintro" id= "secondCardTitle" style={{fontSize:"35px", color:"black"}} > 
           <em> It's fun! </em>
           </Card.Title>
-        <Card.Text id="darkerpink" style={{ paddingTop:"5px", fontSize:"18px"}}>
+        <Card.Text style={{ paddingTop:"6px", fontSize:"18px", color:"black"}}>
           During an internship I had during January 2023, I worked in a team of 5 and we
           were able to build a complete marketplace full-stack website. 
           Building strong connections, worrking together and striving for the same goal
@@ -207,15 +212,17 @@ color:"pink" ,padding:"10px"}}
   
 <br/>
     <Card className="bg-light text-white" 
-      style={{paddingBottom:"50px", border:"solid white", textAlign:"center"}}>
+      style={{paddingBottom:"60px", border:"solid black", textAlign:"center"}}>
       {/* <Card.Header as="h5">Featured</Card.Header> */}
       <Card.Body>
-        <Card.Title  id= "secondCardTitle" style={{fontSize:"35px"}} > <em>I love to problem solve!</em></Card.Title>
-        <Card.Text id="darkerpink" style={{paddingTop:"5px",  fontSize:"18px"}}>
+        <Card.Title  id= "secondCardTitle" className="underlineintro" style={{fontSize:"35px"}} > <em>I love to problem solve!</em></Card.Title>
+        <Card.Text style={{paddingTop:"6px",  fontSize:"18px", color:"black"}}>
+
           I personally enjoy problem solving
           very much. I love the challenge it gives to my brain, and I learned I really work best when working in 
           a problem solving environment! When I find the solution to my problems, it just makes me want
           to celebrate!
+
         </Card.Text>
       </Card.Body>
     </Card>
@@ -229,6 +236,9 @@ color:"pink" ,padding:"10px"}}
   <br></br>
   <br></br>
   <br></br>
+  <br/>
+  
+  
 
   {/* <Card style={{ width: '70vh', maxWidth: "50%", height: "auto"}}></Card> */}
   
@@ -237,9 +247,9 @@ color:"pink" ,padding:"10px"}}
         <Card.Img variant="top" src="https://www.makerstations.io/content/images/2022/08/jb-bardoles-desk-setup-02.jpg" />
         <Card.Body>
           <Card.Title style={{color:"black", fontSize:"30px", textDecoration:"underline", paddingBottom:"5px"}} 
-          id="darkerpink"> 
+          className="underlineintro"> 
             What I used in order to build this website</Card.Title>
-          <Card.Text  id="darkerpink" style={{paddingTop:"10px", fontSize:"20px", color:"black"}}>
+          <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black"}}>
             <ul>
               <li> Editor: VSCode</li>
               <li> Framework: Bootstrap </li>
@@ -258,11 +268,14 @@ color:"pink" ,padding:"10px"}}
       <Card className="bg-light" style={{maxWidth: "100%", height: "auto",  borderWidth:"2px"}} >
         <Card.Img variant="top" src="https://www.makerstations.io/content/images/size/w1384/2022/08/jb-bardoles-desk-setup-01.jpg" />
         <Card.Body>
-          <Card.Title style={{color:"black", fontSize:"30px", textDecoration:"underline", paddingBottom:"5px"}}>My experience with building sites </Card.Title>
-          <Card.Text  style={{paddingTop:"10px", fontSize:"20px",color:"black"}} >
-            <li> 9 months experience with front end</li>
-            <li> One web development certificate</li>
-            <li> Have built a full stack marketplace website for business processes in a team of five
+          <Card.Title style={{color:"black", fontSize:"30px", textDecoration:"underline", paddingBottom:"5px"}}
+           className="underlineintro">
+            My experience with building sites </Card.Title>
+
+          <Card.Text  style={{paddingTop:"10px", fontSize:"20px",color:"black"}}>
+            <li > 9 months experience with front end</li>
+            <li > One web development certificate</li>
+            <li > Have built a full stack marketplace website for business processes in a team of five
               in under three weeks
             </li>
           </Card.Text>
@@ -283,7 +296,7 @@ color:"pink" ,padding:"10px"}}
    
    <ContactUs/>
    <br/>
-      <p style={{textAlign:"center", fontSize:"15px"}} id="underlineintro">
+      <p style={{textAlign:"center", fontSize:"12px"}}>
         <em>Desgined and developed by Hafeefa Sultan on February 6, 2023. </em> 
       </p>
     <br/>

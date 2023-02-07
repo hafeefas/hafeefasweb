@@ -10,8 +10,8 @@ import Navbar from 'react-bootstrap/Navbar';
       <Container>
         <Navbar.Brand> 
             <a href= "mailto:hafeefas47@gmail.com" 
-              target="_blank" style={{ textDecoration:"none"}} id="navhov"><em className="normalfont" 
-              style={{color:"white"}}> Contact me </em> 
+              target="_blank" style={{ textDecoration:"none"}} id="navhov"><em className="aspiringfont" 
+              style={{color:"black"}}> Contact me </em> 
             </a> 
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -21,7 +21,7 @@ import Navbar from 'react-bootstrap/Navbar';
               <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"
               alt="github"
               className='GL'
-              style={{width:"6.2vh"}}/>
+              style={{width:"6.2vh", borderRadius:"4px"}}/>
             </Nav.Link>
             <Nav.Link>
             </Nav.Link>
@@ -29,7 +29,7 @@ import Navbar from 'react-bootstrap/Navbar';
               <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
               alt="linkedin"
               className='GL'
-              style={{width:"5.5vh"}}/>
+              style={{width:"6.2vh"}}/>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
