@@ -56,7 +56,7 @@ const Contactus = () => {
           target="_blank" 
           // className="resume" 
           style={{color:"black", textDecoration:"none"}}>
-            <p style={{fontSize:"25px", paddingLeft:"110px"}}>Github</p> 
+            <p style={{fontSize:"24.4px", paddingLeft:"110px"}}>Github</p> 
               </a>     
            </Col>
 

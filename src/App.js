@@ -80,7 +80,7 @@ function App() {
           Frameworks and Languages I use
       </p>
 
-    <Col style={{marginLeft:"10px"}}><Card  id="cards">
+    <Col style={{margin: "auto"}}><Card  id="cards">
       <Card.Body>
         <Card.Title id="cardTitleSpacing">HTML, CSS, JavaScript</Card.Title>
         <Card.Text>
@@ -101,7 +101,7 @@ function App() {
 
     {/* second card */}
 
-    <Col  style={{marginLeft:"10px"}}><Card  id="cards" >
+    <Col  style={{margin:"auto"}}><Card  id="cards" >
       <Card.Body>
         <Card.Title id="cardTitleSpacing">React JS, BootStrap JS</Card.Title>
         <Card.Text>
@@ -120,7 +120,7 @@ function App() {
     <br/>
 
     {/* third card */}
-    <Col  style={{marginLeft:"10px"}}><Card  id="cards">
+    <Col  style={{marginLeft:"auto"}}><Card  id="cards">
       <Card.Body>
         <Card.Title id="cardTitleSpacing">Java</Card.Title>
         <Card.Text>
@@ -148,9 +148,10 @@ function App() {
       <Col>
         <div class="container">   
           <img src="https://media.licdn.com/dms/image/D4E03AQFKCehSPZwPmQ/profile-displayphoto-shrink_800_800/0/1674249851349?e=1680739200&v=beta&t=pIz9oADbHJRR8Uo_36pNl-ACKgcRpXbsVbcwIgFQpH8"
-          class="image" style={{width:"48vh", paddingTop:"50px", borderRadius:"30px"}} />
+          class="image" style={{width:"48vh", paddingTop:"50px", borderRadius:"30px", marginLeft:"auto", marginRight:"auto"}} />
         </div>
       </Col>
+
 {/* why i want to become full stack */}
       <Col>
           <p id="why" style={{paddingTop:"43px"}}>
@@ -175,8 +176,7 @@ function App() {
     </Row>
   </Container>
   
-    <br/><br/> <br/> <br/> <br/>
-        <br/> 
+    <br/><br/> <br/> <br/> <br/> <br/> 
 
       {/* beginning of why exactly */}
 
@@ -297,7 +297,7 @@ function App() {
         <ContactUs/>
           <br/>
               <p style={{textAlign:"center", fontSize:"12px"}}>
-                <em>Desgined and developed by Hafeefa Sultan on February 6, 2023. </em> 
+                <em>Desgined and developed by Hafeefa Sultan</em> 
               </p>
             <br/>
         </Container>
