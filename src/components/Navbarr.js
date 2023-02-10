@@ -10,7 +10,8 @@ import Navbar from 'react-bootstrap/Navbar';
       <Container>
         <Navbar.Brand> 
             <a href= "mailto:hafeefas47@gmail.com" 
-              target="_blank" style={{ textDecoration:"none"}} id="navhov"><em className="aspiringfont" 
+              target="_blank" style={{ textDecoration:"none"}} id="navhov">
+                <em className="aspiringfont" 
               style={{color:"black"}}> Contact me </em> 
             </a> 
           </Navbar.Brand>

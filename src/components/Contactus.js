@@ -10,7 +10,11 @@ const Contactus = () => {
   return (
     
     <>
-      <h1 style={{textAlign:"center", fontSize:"55px", paddingBottom:"5px", color:"black"}} > 
+      <h1 style=
+      {{textAlign:"center", 
+      fontSize:"55px", 
+      paddingBottom:"5px", 
+      color:"black"}} > 
         Get In Touch 
       </h1>
         <div>
