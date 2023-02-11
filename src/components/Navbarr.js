@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
  function Navbarr() {
   return (
-
+<>
     <Navbar variant="light" expand="lg" style={{paddingTop:"15px"}}>
       <Container>
         <Navbar.Brand> 
@@ -36,6 +36,8 @@ import Navbar from 'react-bootstrap/Navbar';
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+</>
   );
 }
 export default Navbarr;

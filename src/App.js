@@ -16,66 +16,103 @@ function App() {
     <div className="normalfont">
    
     <Navbarr></Navbarr>
-<br/> <br/> <br/>
     
+ <img src ="https://t4.ftcdn.net/jpg/01/70/56/77/360_F_170567722_N73WLMvWpRXIxUa6nECmKsnZGQu3axLo.jpg"
+ style={{width:"30vh",  display: "block",
+ marginLeft: "auto",
+ marginRight: "auto"
+ }}/>
+
+
 <Container>
-          {/* <Container>
-<Row >
-  <Col> */}
+
+        <div
+          className="image-fluid"
+          style={{
+            backgroundImage: "url('https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMjI4OTkyfHxlbnwwfHx8fA%3D%3D&w=1000&q=80')",
+            maxWidth:"100%",
+            width: "100%",
+            backgroundSize:"cover",
+            background:"cover",
+            minHeight:"25vh",
+           
+          }}>
+            
+        {/* <div className="image-fluid">
+           <img src="https://png.pngtree.com/element_our/md/20180111/md_5a57b98c31864.jpg"
+             id="art" style={{float:"right"}}/>
+             <br/> <br/> <br/> <br/>
+       </div>  */}
+       
+          <div className="image-fluid">
+           <img src="https://i.pinimg.com/originals/62/ec/88/62ec886dd7b506f41c8885714a1a3dbc.jpg"
+             id="art" ></img>
+                         
+                          <br/> <br/> <br/> <br/>
+       </div>   
+       <br/> <br/> <br/> <br/>
+
             <h1 className="normalfont"> <strong></strong> </h1>
               <h3 style=
                 {{color:'black' , 
-                fontSize:"35px", 
+                fontSize:"55px", 
                 paddingLeft:"30px" ,
                 paddingBottom:"50px", 
-                textAlign:"center", 
                   borderRadius:"20px", paddingTop:"20px"}}
                   className="underlineintro"> 
-                    Hello world, nice to meet you! My name is <em>Hafeefa Sultan</em> 🎀
+                    Hello world. I'm Hafeefa. A designer.
               </h3>
               <h5 style=
-              {{color:'black',
+              {{
+              color:'gray',
               padding:"20px", 
-              textAlign:"center", 
               textDecorationColor:"black",
-              paddingBottom:"22px"}}>
+              paddingBottom:"22px",
+              paddingLeft:"30px" ,
+            }}>
                  <strong  id="aspiringfont">
-                      I design and code beautifully simple things, and I love what I do.
+                      I design and code beautifully simple things, 
+                      <p  id="aspiringfont"> and I love what I do.</p>
                   </strong> </h5>
-         {/* </Col>
-        <Col>  */}
-
-        <div className="image-fluid">
-           <img src="https://i.pinimg.com/originals/01/9f/c4/019fc468dd8f365bd036e228772eb66d.jpg"
-             id="art"/>
-       </div> 
-       {/* </Col>
-       </Row>
-       </Container> */}
+          
+         
+                  
 
             <br/>
     
 {/* </div> */}
-      <h1 
+      {/* <h1 
         style=
-        {{textAlign:"center", 
+        {{ 
         paddingTop:"15px", 
-        fontSize:"25px"}}>
+        fontSize:"25px",
+        paddingLeft:"20px" ,
+      }}> */}
           
-          <em style=
+          {/* <em style=
           {{
             color:"black",
             padding:"10px"}}
               className="underlineintro">
                  Learn more about me below! 
           </em>
-      </h1> 
+      </h1>  */}
+      
+             <br/> <br/> <br/> <br/>
+             <br/> <br/> <br/> <br/>
+             <br/> <br/> <br/> <br/>
 
-             <br/> <br/>
-             <br/> <br/>
-             {/* <br/> <br/>
-             <br/> */}
+             </div>
+
+
              
+             <br/> <br/>
+              <br/> <br/>
+             <br/> 
+             
+            
+             
+
        {/* first card */}
 
       <Row style= {{paddingTop:"10px"}}>
@@ -92,14 +129,14 @@ function App() {
           but definetly still have lots to learn about them. 
           As for JavaScript, I utilise it in order to 
           add aesthetics, but definetly require more practice with it. 
-          <br/>
+          <br/> 
 
           <img src="https://images.velog.io/images/gga4638/post/6d9df8cb-5086-4fa9-83d1-521fd6a2cb27/image.png" 
-          style={{height:"14vh", marginTop:"35px"}}/> 
+          style={{height:"14vh", marginTop:"40px"}}/> 
         </Card.Text>
-        {/* <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
     </Card></Col>
+
     <br/>
 
     {/* second card */}
@@ -112,7 +149,7 @@ function App() {
           I absolutely love working with React and Boostrap, as they 
           allow my site to obtain more website functionality. I also love their
           ease of use, and always come in handy when building sites.
-          <br/>
+          <br/> 
 
           <img src="https://www.educative.io/api/page/5816757605367808/image/download/5327498687545344" 
           id="picture" style={{height:"14vh", marginTop:"35px"}}/>
@@ -123,13 +160,14 @@ function App() {
     <br/>
 
     {/* third card */}
-    <Col  style={{marginLeft:"auto"}}><Card  id="cards">
+    <Col  style={{margin:"auto"}}><Card  id="cards">
       <Card.Body>
         <Card.Title id="cardTitleSpacing">Java</Card.Title>
         <Card.Text>
           I use java in my cs classes, and do enjoy using it in order to build programs.
           Though I use it in class, I would love to have real world experience
-          with java and more real world applications with it. <br/>
+          with java and more real world applications with it.
+          <br/> 
 
           <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem.jpg" 
           id="picture" style={{height:"14vh", marginTop:"35px"}}/>
@@ -142,12 +180,21 @@ function App() {
 
     <p id="a" 
           className="underlineintro"
-          style={{paddingBottom:"10px",fontSize:"50px", textAlign:"center"}}>
+          style={{paddingBottom:"10px",fontSize:"45px", textAlign:"center"}}>
           Learn more about me and my objectives!
     </p>
 <br/>
 {/* my own picture */}
 <Container>
+<div
+          className="image-fluid"
+          style={{
+            backgroundImage: "url('https://media.istockphoto.com/id/1193999908/vector/abstract-soft-waves-white-and-gray-color-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=E-h1iOxdVYZAnkfi33g932QALEEIrljWjy8z6JLhe0k=')",
+            maxWidth:"100%",
+            backgroundSize:"cover",
+            minHeight:"25vh",
+           
+          }}>
     <Row>
       <Col>
         <div class="container">   
@@ -178,14 +225,24 @@ function App() {
           </p>
       </Col>
     </Row>
+    </div>
   </Container>
   
     <br/><br/> <br/> <br/> <br/> <br/> 
 
       {/* beginning of why exactly */}
-
-<div 
-  style={{border:"solid black", 
+      <div
+          className="image-fluid"
+          style={{
+            backgroundImage: "url('https://img.freepik.com/free-vector/white-background-with-3d-hexagonal-pattern-design_1017-28443.jpg?w=360')",
+            maxWidth:"100%",
+            backgroundSize:"cover",
+            minHeight:"25vh",
+           
+          }}>
+<p 
+  style={{
+  border:"solid black", 
   borderRadius:"10px", 
   borderWidth:"5px",
   padding:"45px",
@@ -193,6 +250,7 @@ function App() {
   height:"auto"}}>
 
     <br/>   
+   
       <p 
           style={{textAlign:"center", fontSize:"40px", paddingBottom:"5px", color:"black"}} 
             className="underline">
@@ -202,7 +260,7 @@ function App() {
     <br/> 
 {/* first */}
 
-   
+
     <Card className="bg-light text-black" style={{paddingBottom:"50px", textAlign:"center", border:"solid black"}}>
       <Card.Body>
         <Card.Title className="underlineintro" id= "secondCardTitle" style={{fontSize:"35px", color:"black"}} > 
@@ -238,12 +296,14 @@ function App() {
           </Card.Text>
       </Card.Body>
     </Card>
-    <br/>
-  
-{/* pink line design */}
-<br></br> <br/> 
-
+    </p>
     </div>
+
+
+{/* pink line design */}
+
+<br></br> <br/> <br/>
+
   <br></br>
   <br></br>
   <br></br>

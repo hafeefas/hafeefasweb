@@ -36,21 +36,24 @@
  border-radius: 30px;
 } 
 #navhov:hover{
-  border-color: lightpink;
+  border-color: white;
   box-shadow: red;
   color: rgb(255, 255, 255);
-    background: pink;
+    /* background: pink; */
+    background-color: rgb(165, 165, 165);
+
     opacity: 0.3s;
 }
 #art{
-  height: 50vh;
-  padding-Top:20px;
+  margin-top: 70px;
+  height: 70vh;
   border-Radius:500px;
   max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50vh;
+  width: 70vh;
+  float: right;
   display: grid;
 
 }
@@ -116,10 +119,14 @@ visibility: visible;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 }
 .pink{
-  color:rgb(255, 202, 211);
+  /* color:rgb(255, 202, 211); */
+  background-color: #E2216A;
+
 }
 #pink{
-  color:rgb(255, 202, 211);
+  /* color:rgb(255, 202, 211); */
+  background-color: #E2216A;
+
 }
 .normalfont{
   color: black;
@@ -160,7 +167,7 @@ visibility: visible;
 #why{
   font-size: 20px;
   text-shadow: white;
-  text-shadow:  0.7px 0.2px  hotpink;
+  text-shadow:  0.7px 0.2px  gray;
   padding-top: 10px;
   font-family: 'Archivo Black', sans-serif;
 font-family: 'Volkhov', serif;
@@ -169,7 +176,8 @@ font-family: 'Volkhov', serif;
 #why:hover{
   transition: background-size 400ms;
   opacity: 1s;
-  color:rgb(249, 167, 224);
+  /* color:rgb(249, 167, 224); */
+  color: rgb(165, 165, 165);
 
 }
 s {
@@ -198,21 +206,21 @@ s:hover::before {
 #cards
 {
    width: 25rem;
-   height:25rem; 
+   height:29rem; 
    text-align:center;
-   border: solid;
    margin-Top:40px;
+   border:solid;   
 } 
 #darkerpink{
-  color:  #ff9ec8;
+  color:  #E2216A;
 }
 #cardTitleSpacing{
-  padding-top:10px;
+  padding-top:20px;
   text-Decoration:underline;
-   font-Size:30px; 
-   padding-Bottom:15px;
-  color: hotpink;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-Size:26px; 
+  padding-Bottom:20px;
+  /* color:  #E2216A; */
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
 }
 /* .content{
   text-shadow: 1px 1px 1px black, 0 0 5px red, 0 0 5px pink;
@@ -263,10 +271,12 @@ s:hover::before {
 
 }
 .underlineintro{
-  text-shadow:  1px 0.2px  pink;
+  /* text-shadow:  1px 0.2px  pink; */
+  text-shadow:  0.7px 0.1px  #E2216A;
+
 }
 #underlineintro{
-  text-shadow:  1px 0.2px  hotpink;
+  text-shadow:  1px 0.1px  #E2216A;
 }
 /* .resume{
   text-shadow:  1px 0.2px  pink;
@@ -280,7 +290,7 @@ s:hover::before {
 }
 .underline{
   color:black;
-  text-shadow:  1px 1px  hotpink;
+  text-shadow:  1px 1px  rgb(165, 165, 165);
   text-Align:center;
 }
 .underline:after{
@@ -314,7 +324,7 @@ s:hover::before {
   transition: 1s ease;
   }  */
 #aspiringfont{
-  text-shadow:  0.5px 0.2px  pink;
+  text-shadow:  0.5px 0.1px  #E2216A;
 }
 #contactFont{
   color:white;
@@ -324,12 +334,13 @@ s:hover::before {
 #contactbutton{
   font-size: 25px;
   border:solid;
-  background-color: pink;
-  background: rgb(255, 185, 197);
+  background-color: #E2216A;
+  /* background-color: pink; */
+  /* background: rgb(255, 185, 197); */
   padding: 10px;
   transition: 0.5s ease;
   border-radius: 7px;
-  color:pink;
+  /* color:pink; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -337,23 +348,8 @@ s:hover::before {
   border-color: lightpink;
   color: rgb(250, 121, 143);
     background: rgb(255, 67, 98);
-    opacity: 0.3s;
-  }
-  .glow {
-    color: #fff;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  }
-  
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-      text-shadow: 0 0 10px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
+    opacity: 0.2s;
+   
   }
 
   /* Shrink Image CSS
