@@ -37,12 +37,6 @@ function App() {
             minHeight:"25vh",
            
           }}>
-            
-        {/* <div className="image-fluid">
-           <img src="https://png.pngtree.com/element_our/md/20180111/md_5a57b98c31864.jpg"
-             id="art" style={{float:"right"}}/>
-             <br/> <br/> <br/> <br/>
-       </div>  */}
        
           <div className="image-fluid">
            <img src="https://i.pinimg.com/originals/62/ec/88/62ec886dd7b506f41c8885714a1a3dbc.jpg"
@@ -59,10 +53,25 @@ function App() {
                 paddingLeft:"30px" ,
                 paddingBottom:"50px", 
                   borderRadius:"20px", paddingTop:"20px"}}
-                  className="underlineintro"> 
-                    Hello world. I'm Hafeefa. A designer.
+                 > 
+                 <h1 style={{paddingBottom:"20px", fontSize:"50px"}}> Hello world. I'm Hafeefa Sultan. A designer. </h1>
+      
+      <p id="a" 
+      style={{ 
+      fontSize:"20px",
+      paddingTop:"40px", 
+      paddingBottom:"10px"}}> 
+          I'm an aspriring software engineer based in New York City! 
+          Since beginning my journey as a software engineer,
+          I've <br/> done remote work for agencies 
+          and collaborated with <br/> talented people to create digital websites for
+           both business and consumer use. I'm quietly confident, naturally 
+           curious, and perpetually working on improving my chops one design 
+           problem at a time.
+    </p>
+                    {/* Hello world. I'm Hafeefa. A designer. */}
               </h3>
-              <h5 style=
+              {/* <h5 style=
               {{
               color:'gray',
               padding:"20px", 
@@ -73,32 +82,14 @@ function App() {
                  <strong  id="aspiringfont">
                       I design and code beautifully simple things, 
                       <p  id="aspiringfont"> and I love what I do.</p>
-                  </strong> </h5>
+                  </strong> </h5> */}
           
          
                   
 
             <br/>
     
-{/* </div> */}
-      {/* <h1 
-        style=
-        {{ 
-        paddingTop:"15px", 
-        fontSize:"25px",
-        paddingLeft:"20px" ,
-      }}> */}
-          
-          {/* <em style=
-          {{
-            color:"black",
-            padding:"10px"}}
-              className="underlineintro">
-                 Learn more about me below! 
-          </em>
-      </h1>  */}
       
-             <br/> <br/> <br/> <br/>
              <br/> <br/> <br/> <br/>
              <br/> <br/> <br/> <br/>
 
@@ -115,12 +106,22 @@ function App() {
 
        {/* first card */}
 
-      <Row style= {{paddingTop:"10px"}}>
-      <p id="a" style={{textAlign:"center", fontSize:"45px", paddingBottom:"10px"}}> 
-          Frameworks and Languages I use
+    <Row style= {{paddingTop:"10px"}}>
+    <div id="graybackground" style={{paddingTop:"30px"}}>
+            
+      <h1 style={{textAlign:"center", paddingBottom:"20px", fontSize:"50px"}}> 
+      Hey there! Thanks for making it here. </h1>
+      
+        <p id="a" 
+        style={{textAlign:"center", 
+        fontSize:"20px", 
+        paddingBottom:"10px"}}> 
+              Here's some information about languages I use in order to build sites 
+              and more.
+          
       </p>
-
-    <Col style={{margin: "auto"}}><Card  id="cards">
+    </div>
+    <Card  id="cards">
       <Card.Body>
         <Card.Title id="cardTitleSpacing">HTML, CSS, JavaScript</Card.Title>
         <Card.Text>
@@ -135,13 +136,13 @@ function App() {
           style={{height:"14vh", marginTop:"40px"}}/> 
         </Card.Text>
       </Card.Body>
-    </Card></Col>
+    </Card>
 
     <br/>
 
     {/* second card */}
 
-    <Col  style={{margin:"auto"}}><Card  id="cards" >
+    <Card  id="cards" >
       <Card.Body>
         <Card.Title id="cardTitleSpacing">React JS, BootStrap JS</Card.Title>
         <Card.Text>
@@ -156,11 +157,11 @@ function App() {
 
         </Card.Text>
       </Card.Body>
-    </Card></Col>
+    </Card>
     <br/>
 
     {/* third card */}
-    <Col  style={{margin:"auto"}}><Card  id="cards">
+    <Card  id="cards">
       <Card.Body>
         <Card.Title id="cardTitleSpacing">Java</Card.Title>
         <Card.Text>
@@ -173,18 +174,10 @@ function App() {
           id="picture" style={{height:"14vh", marginTop:"35px"}}/>
         </Card.Text>
       </Card.Body>
-    </Card></Col>
+    </Card>
   </Row>
 <br/><br/> <br/> <br/> <br/> <br/> <br/>
 
-
-    <p id="a" 
-          className="underlineintro"
-          style={{paddingBottom:"10px",fontSize:"45px", textAlign:"center"}}>
-          Learn more about me and my objectives!
-    </p>
-<br/>
-{/* my own picture */}
 <Container>
 <div
           className="image-fluid"
@@ -192,9 +185,16 @@ function App() {
             backgroundImage: "url('https://media.istockphoto.com/id/1193999908/vector/abstract-soft-waves-white-and-gray-color-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=E-h1iOxdVYZAnkfi33g932QALEEIrljWjy8z6JLhe0k=')",
             maxWidth:"100%",
             backgroundSize:"cover",
-            minHeight:"25vh",
+            minHeight:"25vh"
            
           }}>
+    <p id="a" 
+          style={{paddingBottom:"10px",fontSize:"45px", textAlign:"center"}}>
+          Learn more about me and my objectives!
+    </p>
+<br/>
+{/* my own picture */}
+
     <Row>
       <Col>
         <div class="container">   
@@ -263,7 +263,7 @@ function App() {
 
     <Card className="bg-light text-black" style={{paddingBottom:"50px", textAlign:"center", border:"solid black"}}>
       <Card.Body>
-        <Card.Title className="underlineintro" id= "secondCardTitle" style={{fontSize:"35px", color:"black"}} > 
+        <Card.Title id= "secondCardTitle" style={{fontSize:"40px", color:"black"}} > 
           It's loads of fun! 
           </Card.Title>
             <Card.Text style={{ paddingTop:"6px", fontSize:"18px", color:"black"}}>
@@ -285,7 +285,7 @@ function App() {
       style={{paddingBottom:"60px", border:"solid black", textAlign:"center"}}>
       {/* <Card.Header as="h5">Featured</Card.Header> */}
       <Card.Body>
-        <Card.Title  id= "secondCardTitle" className="underlineintro" style={{fontSize:"35px"}} > 
+        <Card.Title  id= "secondCardTitle" style={{fontSize:"40px"}} > 
           I love to problem solve!
             </Card.Title>
               <Card.Text style={{paddingTop:"6px",  fontSize:"18px", color:"black"}}>
@@ -296,8 +296,9 @@ function App() {
           </Card.Text>
       </Card.Body>
     </Card>
+      <br/>
     </p>
-    </div>
+  </div>
 
 
 {/* pink line design */}
@@ -318,8 +319,8 @@ function App() {
       <Card className="bg-light" style={{maxWidth: "100%", height: "auto",  borderWidth:"1px"}} >
         <Card.Img variant="top" src="https://www.makerstations.io/content/images/2022/08/jb-bardoles-desk-setup-02.jpg" />
           <Card.Body>
-            <Card.Title style={{color:"black", fontSize:"30px", textDecoration:"underline", paddingBottom:"5px", textAlign:"center"}} 
-              className="underlineintro"> 
+            <Card.Title style={{color:"black", fontSize:"30px", textDecoration:"underline", paddingBottom:"5px"}} 
+              > 
                 What I used in order to build this website</Card.Title>
          
                 <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black"}}>
@@ -339,7 +340,7 @@ function App() {
         <Card.Img variant="top" src="https://www.makerstations.io/content/images/size/w1384/2022/08/jb-bardoles-desk-setup-01.jpg" />
           <Card.Body>
               <Card.Title style={{color:"black", fontSize:"30px", textDecoration:"underline", paddingBottom:"5px"}}
-                className="underlineintro">
+                >
                    My experience with building websites </Card.Title>
 
           <Card.Text  style={{paddingTop:"10px", fontSize:"20px",color:"black"}}>

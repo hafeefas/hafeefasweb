@@ -37,7 +37,7 @@ const Contactus = () => {
         <a href= "mailto:hafeefas47@gmail.com" 
           target="_blank" style={{ textDecoration:"none"}}> 
             <div style={{ 
-              color:"white", 
+              color:"black", 
               marginLeft:"auto", 
              marginRight:"auto",
              paddingLeft:"60px", 
