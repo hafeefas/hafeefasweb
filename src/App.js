@@ -199,7 +199,7 @@ function App() {
       <Col>
         <div class="container">   
           <img src="https://media.licdn.com/dms/image/D4E03AQFKCehSPZwPmQ/profile-displayphoto-shrink_800_800/0/1674249851349?e=1680739200&v=beta&t=pIz9oADbHJRR8Uo_36pNl-ACKgcRpXbsVbcwIgFQpH8"
-          class="image" style={{width:"48vh", paddingTop:"50px", borderRadius:"30px", marginLeft:"auto", marginRight:"auto"}} />
+          class="image" style={{width:"48vh", border:"solid whitesmoke", paddingTop:"50px", borderRadius:"30px", marginLeft:"auto", marginRight:"auto"}} />
         </div>
       </Col>
 
@@ -335,7 +335,7 @@ function App() {
           {width:"60vh", 
           height:"50vh", 
           minHeight:"25vh", 
-          maxHeight:"100%",
+          maxWidth:"100%",
           float:"right",
           display:"block",
           display:"grid",
@@ -387,7 +387,7 @@ function App() {
           {width:"60vh", 
           height:"50vh", 
           minHeight:"25vh", 
-          maxHeight:"100%",
+          maxWidth:"100%",
           float:"left",
           display:"block",
           display:"grid",
