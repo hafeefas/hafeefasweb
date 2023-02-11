@@ -61,10 +61,10 @@ function App() {
       fontSize:"20px",
       paddingTop:"40px", 
       paddingBottom:"10px"}}> 
-          I'm an aspriring software engineer based in New York City! 
+          I'm an aspiring software engineer based in New York City! 
           Since beginning my journey as a software engineer,
-          I've <br/> done remote work for agencies 
-          and collaborated with <br/> talented people to create digital websites for
+          I've done remote work for agencies 
+          and collaborated with talented people to create digital websites for
            both business and consumer use. I'm quietly confident, naturally 
            curious, and perpetually working on improving my chops one design 
            problem at a time.
@@ -228,10 +228,10 @@ function App() {
     </div>
   </Container>
   
-    <br/><br/> <br/> <br/> <br/> <br/> 
+    {/* <br/><br/> <br/> <br/> <br/> <br/>  */}
 
       {/* beginning of why exactly */}
-      <div
+      {/* <div
           className="image-fluid"
           style={{
             backgroundImage: "url('https://img.freepik.com/free-vector/white-background-with-3d-hexagonal-pattern-design_1017-28443.jpg?w=360')",
@@ -239,12 +239,12 @@ function App() {
             backgroundSize:"cover",
             minHeight:"25vh",
            
-          }}>
-<p 
-  style={{
-  border:"solid black", 
-  borderRadius:"10px", 
-  borderWidth:"5px",
+          }}> */}
+{/* <p 
+  style={{ */}
+  {/* // border:"solid black", 
+  // borderRadius:"10px", 
+  // borderWidth:"5px",
   padding:"45px",
   maxWidth:"100%", 
   height:"auto"}}>
@@ -255,13 +255,13 @@ function App() {
           style={{textAlign:"center", fontSize:"40px", paddingBottom:"5px", color:"black"}} 
             className="underline">
          Why exactly do I want to be a software engineer? 
-      </p>
+      </p> */}
 
     <br/> 
 {/* first */}
 
 
-    <Card className="bg-light text-black" style={{paddingBottom:"50px", textAlign:"center", border:"solid black"}}>
+    {/* <Card className="bg-light text-black" style={{paddingBottom:"50px", textAlign:"center", border:"solid black"}}>
       <Card.Body>
         <Card.Title id= "secondCardTitle" style={{fontSize:"40px", color:"black"}} > 
           It's loads of fun! 
@@ -274,16 +274,15 @@ function App() {
               of being a software engineer, working in cooperative teams and aiming for a common target!
             </Card.Text>
       </Card.Body>
-    </Card>
+    </Card> */}
 
     <br/><br/> 
     {/* second */}
 
   
 <br/>
-    <Card className="bg-light text-white" 
+    {/* <Card className="bg-light text-white" 
       style={{paddingBottom:"60px", border:"solid black", textAlign:"center"}}>
-      {/* <Card.Header as="h5">Featured</Card.Header> */}
       <Card.Body>
         <Card.Title  id= "secondCardTitle" style={{fontSize:"40px"}} > 
           I love to problem solve!
@@ -297,61 +296,122 @@ function App() {
       </Card.Body>
     </Card>
       <br/>
-    </p>
-  </div>
+  </p> */}
+  {/* </div>  */}
 
 
 {/* pink line design */}
 
 <br></br> <br/> <br/>
 
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br/>
-  
   
 
   {/* <Card style={{ width: '70vh', maxWidth: "50%", height: "auto"}}></Card> */}
   
     <CardGroup >
-      <Card className="bg-light" style={{maxWidth: "100%", height: "auto",  borderWidth:"1px"}} >
-        <Card.Img variant="top" src="https://www.makerstations.io/content/images/2022/08/jb-bardoles-desk-setup-02.jpg" />
-          <Card.Body>
-            <Card.Title style={{color:"black", fontSize:"30px", textDecoration:"underline", paddingBottom:"5px"}} 
+
+    <div
+          className="image-fluid"
+          style={{
+            backgroundImage: "url('ttps://img.freepik.com/free-vector/white-background-with-3d-hexagonal-pattern-design_1017-28443.jpg?w=360')",
+            maxWidth:"100%",
+            width: "100%",
+            backgroundSize:"cover",
+            background:"cover",
+            // backgroundColor:"whitesmoke",
+            minHeight:"25vh",
+            borderTopLeftRadius:"30px",
+            paddingRight:"20px",
+            border:"solid whitesmoke 10px"
+
+           
+          }}>
+            <br/> <br/>
+      
+      {/* <Card className="bg-light" style={{maxWidth: "100%", height: "auto",  borderWidth:"1px"}} > */}
+      {/* https://www.makerstations.io/content/images/2022/08/jb-bardoles-desk-setup-02.jpg */}
+        <img src="https://img.freepik.com/premium-photo/floating-devices-mockup-with-responsive-website-design-3d-rendering_72104-3791.jpg?w=2000" 
+        style={
+          {width:"60vh", 
+          height:"50vh", 
+          minHeight:"25vh", 
+          maxHeight:"100%",
+          float:"right",
+          display:"block",
+          display:"grid",
+          marginLeft:"auto",
+          marginRight:"auto",
+          // border:"solid whitesmoke 20px"
+          paddingBottom:"30px"
+          }} />
+          <br/> <br/> <br/> <br/>
+
+          {/* <Card.Body> */}
+            <Card.Title style={{color:"black", fontSize:"30px",  paddingBottom:"5px", padding:"20px", paddingLeft:"20px", float:"left"}} 
               > 
                 What I used in order to build this website</Card.Title>
          
-                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black"}}>
-                  <ul>
-                    <li> Editor: VSCode</li>
-                    <li> Framework: Bootstrap </li>
-                    <li> Open source: Node.js, Git, Github </li>
-                    <li> Languages: React, HTML, JavaScript, CSS </li>
-                  </ul>
+                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black", paddingLeft:"20px", float:"left"}}>
+                  
+                     Editor: VSCode <br/>
+                     Framework: Bootstrap <br/>
+                     Open source: Node.js, Git, Github  <br/>
+                     Languages: React, HTML, JavaScript, CSS <br/>
+                  
           </Card.Text>
-        </Card.Body>
-      </Card> 
+          </div>
+<br/> <br/> <br/>
 
-      {/* second card */}
+    <div
+          className="image-fluid"
+          style={{
+            backgroundImage: "url('ttps://img.freepik.com/free-vector/white-background-with-3d-hexagonal-pattern-design_1017-28443.jpg?w=360')",
+            maxWidth:"100%",
+            width: "100%",
+            backgroundSize:"cover",
+            background:"cover",
+            border:"solid whitesmoke 10px",
+            // backgroundColor:"whitesmoke",
+            minHeight:"25vh",
+            borderRadius:"0px",
+            paddingLeft:"20px",
+            borderRightRadius:"20px"
+           
+          }}>
+            <br/> <br/> <br/>
+      
+      {/* <Card className="bg-light" style={{maxWidth: "100%", height: "auto",  borderWidth:"1px"}} > */}
+      {/* https://www.makerstations.io/content/images/2022/08/jb-bardoles-desk-setup-02.jpg */}
+        <img src="https://img.freepik.com/free-psd/elegant-minimalist-laptop-mockup_125540-2406.jpg?size=626&ext=jpg" 
+        style={
+          {width:"60vh", 
+          height:"50vh", 
+          minHeight:"25vh", 
+          maxHeight:"100%",
+          float:"left",
+          display:"block",
+          display:"grid",
+          marginLeft:"auto",
+          marginRight:"auto",
+          paddingBottom:"60px"
+          }} />
+            <br/> <br/> <br/> <br/>
 
-      <Card className="bg-light" style={{maxWidth: "100%", height: "auto",  borderWidth:"1px"}} >
-        <Card.Img variant="top" src="https://www.makerstations.io/content/images/size/w1384/2022/08/jb-bardoles-desk-setup-01.jpg" />
-          <Card.Body>
-              <Card.Title style={{color:"black", fontSize:"30px", textDecoration:"underline", paddingBottom:"5px"}}
-                >
-                   My experience with building websites </Card.Title>
-
-          <Card.Text  style={{paddingTop:"10px", fontSize:"20px",color:"black"}}>
-              <li > 9 months experience with front end</li>
-              <li > One web development certificate</li>
-              <li > Have built a full stack marketplace website for business processes in a team of five
-                in under three weeks
-            </li>
+          {/* <Card.Body> */}
+            <Card.Title style={{color:"black", fontSize:"30px",  paddingBottom:"5px",  padding:"20px", paddingLeft:"20px", float:"left"}} 
+              > 
+                What I used in order to build this website</Card.Title>
+         
+                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black", paddingLeft:"20px", float:"left"}}>
+                  
+                     Editor: VSCode <br/>
+                     Framework: Bootstrap <br/>
+                     Open source: Node.js, Git, Github  <br/>
+                     Languages: React, HTML, JavaScript, CSS <br/>
+                  
           </Card.Text>
-        </Card.Body>
-      </Card>
+        </div>
+
 
     </CardGroup>
     
