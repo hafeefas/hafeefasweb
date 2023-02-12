@@ -365,8 +365,7 @@ function App() {
                   
           </Card.Text>
           </div>
-<br/> <br/> <br/> <br/>
-
+<br/> <br/> <br/>
 
     <div
           className="image-fluid"
@@ -374,6 +373,8 @@ function App() {
             backgroundImage: "url('ttps://img.freepik.com/free-vector/white-background-with-3d-hexagonal-pattern-design_1017-28443.jpg?w=360')",
             maxWidth:"100%",
             width: "100%",
+            backgroundSize:"cover",
+            background:"cover",
             border:"solid whitesmoke 10px",
             // backgroundColor:"whitesmoke",
             minHeight:"25vh",
@@ -388,17 +389,17 @@ function App() {
       {/* https://www.makerstations.io/content/images/2022/08/jb-bardoles-desk-setup-02.jpg */}
         <img src="https://img.freepik.com/free-psd/elegant-minimalist-laptop-mockup_125540-2406.jpg?size=626&ext=jpg" 
         style={
-                {width:"60vh", 
-                height:"50vh", 
-                minHeight:"25vh", 
-                maxWidth:"100%",
-                float:"left",
-                display:"block",
-                display:"grid",
-                marginLeft:"auto",
-                marginRight:"auto",
-                paddingBottom:"60px"
-                }} />
+          {width:"60vh", 
+          height:"50vh", 
+          minHeight:"25vh", 
+          maxWidth:"100%",
+          float:"left",
+          display:"block",
+          display:"grid",
+          marginLeft:"auto",
+          marginRight:"auto",
+          paddingBottom:"60px"
+          }} />
             <br/> <br/> <br/> <br/>
 
           {/* <Card.Body> */}
@@ -407,8 +408,7 @@ function App() {
                       fontSize:"30px", 
                       paddingBottom:"5px",  
                       padding:"20px", 
-                      paddingLeft:"20px", 
-                      float:"left"}} 
+                      paddingLeft:"20px", float:"left"}} 
               > 
                 What I used in order to build this website</Card.Title>
          

@@ -13,17 +13,8 @@ import Navbar from 'react-bootstrap/Navbar';
               target="_blank" style={{ textDecoration:"none"}} id="navhov">
                 <em className="aspiringfont" 
               style={{color:"black"}}> Contact me </em> 
-            </a> <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            </a> 
           </Navbar.Brand>
-
-          {/* <Navbar.Brand> 
-            <a href= "mailto:hafeefas47@gmail.com" 
-              target="_blank" style={{ textDecoration:"none"}} >
-                <em className="aspiringfont" 
-              style={{color:"black"}}> About me </em> 
-            </a> <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          </Navbar.Brand> */}
-          
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -31,7 +22,7 @@ import Navbar from 'react-bootstrap/Navbar';
               <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"
               alt="github"
               className='GL'
-              style={{width:"6.2vh", borderRadius:"4px"}}/>
+              style={{width:"7vh", borderRadius:"4px"}}/>
             </Nav.Link>
             <Nav.Link>
             </Nav.Link>
@@ -39,7 +30,7 @@ import Navbar from 'react-bootstrap/Navbar';
               <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
               alt="linkedin"
               className='GL'
-              style={{width:"6.2vh"}}/>
+              style={{width:"7vh"}}/>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
