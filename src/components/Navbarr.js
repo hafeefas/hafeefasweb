@@ -13,8 +13,17 @@ import Navbar from 'react-bootstrap/Navbar';
               target="_blank" style={{ textDecoration:"none"}} id="navhov">
                 <em className="aspiringfont" 
               style={{color:"black"}}> Contact me </em> 
-            </a> 
+            </a> <Navbar.Toggle aria-controls="basic-navbar-nav" />
           </Navbar.Brand>
+
+          {/* <Navbar.Brand> 
+            <a href= "mailto:hafeefas47@gmail.com" 
+              target="_blank" style={{ textDecoration:"none"}} >
+                <em className="aspiringfont" 
+              style={{color:"black"}}> About me </em> 
+            </a> <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          </Navbar.Brand> */}
+          
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

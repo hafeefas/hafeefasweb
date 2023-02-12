@@ -10,11 +10,7 @@ const Contactus = () => {
   return (
     
     <>
-      <h1 style=
-      {{textAlign:"center", 
-      fontSize:"55px", 
-      paddingBottom:"5px", 
-      color:"black"}} > 
+      <h1 style={{textAlign:"center", fontSize:"55px", paddingBottom:"5px", color:"black"}} > 
         Get In Touch 
       </h1>
         <div>
@@ -60,7 +56,7 @@ const Contactus = () => {
           target="_blank" 
           // className="resume" 
           style={{color:"black", textDecoration:"none"}}>
-            <p style={{fontSize:"24.4px", paddingLeft:"110px"}}>Github</p> 
+            <p style={{fontSize:"25px", textAlign:"center"}}>Github</p> 
               </a>     
            </Col>
 
@@ -69,7 +65,7 @@ const Contactus = () => {
           target="_blank" 
           className="resume" 
           style={{color:"black", textDecoration:"none"}} > 
-            <p style={{fontSize:"24.7px"}}>Resume</p> 
+            <p style={{fontSize:"24.7px", textAlign:"center"}}>Resume</p> 
           </a>  
           </Col>
 
@@ -78,7 +74,7 @@ const Contactus = () => {
           target="_blank" 
           // className="resume" 
           style={{color:"black", textDecoration:"none"}}>
-            <p style={{fontSize:"24.4px"}}>Linkedin</p> 
+            <p style={{fontSize:"24.4px", textAlign:"center"}}>Linkedin</p> 
               </a>     
         </Col>
       </Row>
