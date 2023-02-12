@@ -24,7 +24,6 @@ function App() {
  }}/>
 
 
-<Container>
 
         <div
           className="image-fluid"
@@ -56,7 +55,7 @@ function App() {
                   borderRadius:"20px", paddingTop:"20px"}}
                  > 
                  <h1 style={{paddingBottom:"20px", fontSize:"50px"}}>
-                   Hello world. I'm Hafeefa Sultan. A designer. 
+                   Hello world. I'm Hafeefa Sultan. A designer, a programmer, a coder.
                    </h1>
       
       <p id="a" 
@@ -64,8 +63,9 @@ function App() {
       fontSize:"20px",
       paddingTop:"40px", 
       paddingBottom:"10px"}}> 
-          I'm an aspiring software engineer based in New York City! 
-          Since beginning my journey as a software engineer,
+          Hello there, nice you meet you. I'm Hafeefa, an 
+          aspiring software engineer based in New York City.
+          Since the beginning my journey as a software engineer,
           I've done remote work for agencies 
           and collaborated with talented people to create digital websites for
            both business and consumer use. I'm quietly confident, naturally 
@@ -104,7 +104,8 @@ function App() {
               <br/> <br/>
              <br/> 
              
-            
+             <Container>
+
              
 
        {/* first card */}
@@ -352,16 +353,16 @@ function App() {
           <br/> <br/> <br/> <br/>
 
           {/* <Card.Body> */}
-            <Card.Title style={{color:"black", fontSize:"30px",  paddingBottom:"5px", padding:"20px", paddingLeft:"20px", float:"left"}} 
+            <Card.Title style={{color:"black", fontSize:"30px",  paddingBottom:"5px", padding:"20px", paddingLeft:"20px", float:"left", textAlign:"right"}} 
               > 
-                What I used in order to build this website</Card.Title>
+                My experience with building sites and <br/> Programming </Card.Title>
          
-                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black", paddingLeft:"20px", float:"left"}}>
+                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black", paddingLeft:"20px", float:"left", textAlign:"right"}}>
                   
-                     Editor: VSCode <br/>
-                     Framework: Bootstrap <br/>
-                     Open source: Node.js, Git, Github  <br/>
-                     Languages: React, HTML, JavaScript, CSS <br/>
+                    9 months experience with designing sites <br/>
+                    One web development certificate (Break Through Tech) <br/>
+                    Over 1 year's experience with building programs with java <br/>
+                      <br/>
                   
           </Card.Text>
           </div>
