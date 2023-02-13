@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 <>
     <Navbar variant="light" expand="lg" style={{paddingTop:"15px"}}>
       <Container>
-        <Navbar.Brand style={{textAlign:"left"}}> 
+        <Navbar.Brand> 
             <a href= "mailto:hafeefas47@gmail.com" 
               target="_blank" style={{ textDecoration:"none"}} id="navhov">
                 <em className="aspiringfont" 

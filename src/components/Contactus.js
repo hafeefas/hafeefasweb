@@ -27,7 +27,7 @@ const Contactus = () => {
         <Card.Title>
         </Card.Title>
           <Card.Text>
-        <p style={{textAlign:"center", fontSize:"30px", paddingBottom:"10px",color:"black"}}> Want to work together or have any questions?</p>
+        <p style={{textAlign:"center", fontSize:"25px", paddingBottom:"10px",color:"black"}}> Want to work together or have any questions?</p>
         </Card.Text>
         <Button variant="primary" id="contactbutton"> 
         <a href= "mailto:hafeefas47@gmail.com" 

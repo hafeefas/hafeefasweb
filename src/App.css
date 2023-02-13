@@ -46,13 +46,13 @@
 }
 #art{
   margin-top: 70px;
-  height: 70vh;
+  height: 80vh;
   border-Radius:500px;
   max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70vh;
+  width: 80vh;
   float: right;
   display: grid;
 
