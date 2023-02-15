@@ -265,7 +265,7 @@ function App() {
          
                 <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black", paddingLeft:"20px", float:"left", textAlign:"right"}}>
                   
-                    9 months experience with designing sites <br/>
+                    9 months experience with front end development <br/>
                     One web development certificate (Break Through Tech) <br/>
                     Over 1 year's experience with building programs with java <br/>                  
                 </Card.Text>
