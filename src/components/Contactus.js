@@ -9,8 +9,8 @@ import Col from 'react-bootstrap/Col';
 const Contactus = () => {
   return (
     
-    <>
-      <h1 style={{textAlign:"center", fontSize:"55px", paddingBottom:"5px", color:"black"}} > 
+    <footer>
+      <h1 style={{textAlign:"center", fontSize:"55px", paddingBottom:"5px", paddingTop:"100px",color:"black"}} > 
         Get In Touch 
       </h1>
         <div>
@@ -83,7 +83,7 @@ const Contactus = () => {
         
 
       <br/>
-    </>
+    </footer>
   )
 }
 

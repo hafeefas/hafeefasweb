@@ -11,10 +11,6 @@ return (
     <Router>
         <Route exact path="/Navbarr"  element = {<Navbarr/>} />
         <Route exact path="/Contactus" element= {<ContactUs/>}/>
-        <Switch>
-        <Link to="/About">About us</Link>
-        <Route exact path="/About" element= {<About/>}/>
-        </Switch>
     </Router>
 
     );

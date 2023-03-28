@@ -14,21 +14,12 @@ function App() {
     <>
    
     <div className="normalfont">
-   
-    <Navbarr></Navbarr>
     
-      <img src ="https://t4.ftcdn.net/jpg/01/70/56/77/360_F_170567722_N73WLMvWpRXIxUa6nECmKsnZGQu3axLo.jpg"
-      style={{width:"30vh",  display: "block",
-      marginLeft: "auto",
-      marginRight: "auto"
-      }}/>
-
-
-
-        <div
+    <header
           className="image-fluid"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMjI4OTkyfHxlbnwwfHx8fA%3D%3D&w=1000&q=80')",
+            // backgroundImage: "url('https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMjI4OTkyfHxlbnwwfHx8fA%3D%3D&w=1000&q=80')",
+            backgroundImage: "url('https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio-thumbnail.jpg')",
             maxWidth:"100%",
             width: "100%",
             backgroundSize:"cover",
@@ -36,35 +27,43 @@ function App() {
             minHeight:"25vh",
             backgroundColor:"whitesmoke",
           }}>
-       
-          <div className="image-fluid">
-           <img src="https://i.pinimg.com/originals/62/ec/88/62ec886dd7b506f41c8885714a1a3dbc.jpg"
-             id="art" ></img>
-                         
-            <br/> <br/> <br/> <br/>
-          </div>   
-        <br/> <br/> <br/> <br/><br/>
 
-              <h1 className="normalfont"> <strong></strong> </h1>
+    <Navbarr></Navbarr>
+    
+      {/* <img src ="https://t4.ftcdn.net/jpg/01/70/56/77/360_F_170567722_N73WLMvWpRXIxUa6nECmKsnZGQu3axLo.jpg"
+      style={{width:"30vh",  display: "block",
+      marginLeft: "auto",
+      marginRight: "auto"
+      }}/>
+        */}
+          <div className="image-fluid">
+           {/* <img src="https://i.pinimg.com/originals/62/ec/88/62ec886dd7b506f41c8885714a1a3dbc.jpg"
+             id="art" ></img> */}
+                         
+           
+          </div>   
+             
                 <h3 style=
-                  {{color:'black' , 
+                  {{color:'white' , 
                   fontSize:"55px", 
                   paddingLeft:"30px" ,
-                  paddingBottom:"50px", 
                   borderRadius:"20px", 
-                  paddingTop:"20px"}}
+                  paddingTop:"250px",
+                  paddingBottom:"270px"}}
                   > 
-                  <h1 style={{paddingBottom:"20px", fontSize:"50px"}}>
-                    Hello world. I'm Hafeefa Sultan. A designer, a programmer, a coder.
+                  <h1 style={{paddingBottom:"20px", fontSize:"50px", paddingLeft:"6%", display:"flex", justifyContent:"left"}}>
+                    Aspiring Developer.
                     </h1>
         
                           <p id="a" 
                           style={{ 
                           fontSize:"20px",
-                          paddingTop:"40px", 
-                          paddingBottom:"10px"}}> 
-                              Hello there, nice you meet you. I'm Hafeefa, an 
-                              aspiring software engineer based in New York City.
+                          paddingTop:"50px", 
+                          paddingBottom:"20px",
+                          paddingLeft:"5.5%",
+                          paddingRight:"10%",
+                          display:"flex", justifyContent:"center"}}> 
+                              Hello there, nice you meet you. I'm Hafeefa.
                               Since the beginning my journey as a software engineer,
                               I've done remote work for agencies 
                               and collaborated with talented people to create digital websites for
@@ -72,28 +71,24 @@ function App() {
                               curious, and perpetually working on improving my chops one design 
                               problem at a time.
                         </p>
-                            <br/>
-    </h3>
-      
-             <br/> <br/> <br/> <br/>
-             <br/> <br/> <br/> <br/>
 
-             </div>
-
-
+            <div class="outer">
+                <div class="button">
+                  <div class="text"> <a href = "https://github.com/hafeefas" target = "_blank" style={{textDecoration:"none"}}>Find my code </a></div>
+                </div>
+              </div>
+            <br/>
+         </h3>
+      </header>
              
-              <br/> <br/>
-              <br/> <br/>
-              <br/> 
-             
-             <Container>
+         <Container>
 
-             
 
        {/* first card */}
 
-    <Row style= {{paddingTop:"10px"}}>
-    <div id="graybackground" style={{paddingTop:"30px"}}>
+
+  <Row style= {{paddingTop:"170px", paddingBottom:"200px"}}>
+    <article id="graybackground" style={{paddingTop:"30px"}}>
             
       <h1 style={{textAlign:"center", paddingBottom:"20px", fontSize:"50px"}}> 
         Hey there! Thanks for making it here. </h1>
@@ -107,9 +102,8 @@ function App() {
                 and more.
           
           </p>
-    </div>
+    </article>
             <Card  id="cards">
-              
               <Card.Body>
                 <Card.Title id="cardTitleSpacing">HTML, CSS, JavaScript</Card.Title>
                 <Card.Text>
@@ -165,9 +159,7 @@ function App() {
             </Card>
           </Row>
 
-<br/><br/> <br/> <br/> <br/> <br/> <br/>
-
-<Container>
+{/* <Container>
             <div
             className="image-fluid"
             style={{
@@ -180,26 +172,27 @@ function App() {
                       style={{paddingBottom:"10px",fontSize:"45px", textAlign:"center"}}>
                       Learn more about me and my objectives!
                 </p>
-            <br/>
+            <br/> */}
+
 {/* my own picture */}
 
-                <Row>
-                  <Col>
-                    <div class="container">   
-                      <img src="https://media.licdn.com/dms/image/D4E03AQFKCehSPZwPmQ/profile-displayphoto-shrink_800_800/0/1674249851349?e=1680739200&v=beta&t=pIz9oADbHJRR8Uo_36pNl-ACKgcRpXbsVbcwIgFQpH8"
-                      class="image" style={{width:"48vh", border:"solid whitesmoke", paddingTop:"50px", borderRadius:"30px", marginLeft:"auto", marginRight:"auto"}} />
+            {/* <Row>
+              <Col>
+                <div class="container">   
+                  <img src="https://media.licdn.com/dms/image/D4E03AQFKCehSPZwPmQ/profile-displayphoto-shrink_800_800/0/1674249851349?e=1680739200&v=beta&t=pIz9oADbHJRR8Uo_36pNl-ACKgcRpXbsVbcwIgFQpH8"
+                    class="image" style={{width:"48vh", border:"solid whitesmoke", paddingTop:"50px", borderRadius:"30px", marginLeft:"auto", marginRight:"auto", marginBottom:"30px"}} />
                     </div>
-                  </Col>
+                  </Col> */}
 
           {/* why i want to become full stack */}
-                <Col>
-                    <p id="why" style={{paddingTop:"43px"}}>
+                {/* <Col>
+                    <p id="why" style={{paddingTop:"24%"}}>
                         I am asipring full stack software engineer mainly specializing in the front end areas.
                         I am however, knowledgable in certain areas in backend. I want to become a full stack developer
                         because I want to learn and work with multiple technologies, and be able to see the full 
                         picture of where the backend and frontend is used.
-                    </p>
-                    <p id="why">
+                    </p> */}
+                    {/* <p id="why">
                         I would also enjoy being a full stack developer because it would allow
                         me to work for businesses as well as software companies. I can then 
                         listen to business owners and collaborate with them to create and deploy an 
@@ -210,22 +203,22 @@ function App() {
                         I am currently looking for full stack, front-end, and back-end internships that will
                         help reach my target. I love working in every aspect of front end and back end, so
                         I would give it my all in order to reach my objectives!
-                    </p>
+                    </p> */}
+{/*                     
                 </Col>
               </Row>
-              </div>
-            </Container>
+            </div>
+         </Container>
   
     <br/> <br/> <br/> <br/>
-    <br></br> <br/> <br/>
+    <br></br> <br/> <br/> */}
 
   
 
   {/* <Card style={{ width: '70vh', maxWidth: "50%", height: "auto"}}></Card> */}
   
-    <CardGroup >
-
-    <div
+  <CardGroup>
+    <section
           className="image-fluid"
           style={{
             backgroundImage: "url('ttps://img.freepik.com/free-vector/white-background-with-3d-hexagonal-pattern-design_1017-28443.jpg?w=360')",
@@ -233,11 +226,9 @@ function App() {
             width: "100%",
             backgroundSize:"cover",
             background:"cover",
-            // backgroundColor:"whitesmoke",
             minHeight:"25vh",
-            borderTopLeftRadius:"30px",
             paddingRight:"20px",
-            border:"solid whitesmoke 10px"
+            marginBottom:"1%"
 
            
           }}>
@@ -247,7 +238,8 @@ function App() {
             style={
               {width:"60vh", 
               height:"50vh", 
-              minHeight:"25vh", 
+              minHeight:"25vh",
+              borderRadius:"10px", 
               maxWidth:"100%",
               float:"right",
               display:"block",
@@ -269,8 +261,7 @@ function App() {
                     One web development certificate (Break Through Tech) <br/>
                     Over 1 year's experience with building programs with java <br/>                  
                 </Card.Text>
-      </div>
-<br/> <br/> <br/>
+      </section>
 
     <div
           className="image-fluid"
@@ -280,10 +271,9 @@ function App() {
             width: "100%",
             backgroundSize:"cover",
             background:"cover",
-            border:"solid whitesmoke 10px",
+            // border:"solid whitesmoke 10px",
             // backgroundColor:"whitesmoke",
             minHeight:"25vh",
-            borderRadius:"0px",
             paddingLeft:"20px",
             borderRightRadius:"20px"
            
@@ -293,7 +283,8 @@ function App() {
         <img src="https://img.freepik.com/free-psd/elegant-minimalist-laptop-mockup_125540-2406.jpg?size=626&ext=jpg" 
           style={
             {width:"60vh", 
-            height:"50vh", 
+            height:"55vh", 
+            borderRadius:"10px",
             minHeight:"25vh", 
             maxWidth:"100%",
             float:"left",
@@ -311,38 +302,31 @@ function App() {
                       fontSize:"30px", 
                       paddingBottom:"5px",  
                       padding:"20px", 
-                      paddingLeft:"20px", float:"left"}} 
+                      paddingLeft:"5%", 
+                      float:"left"}} 
               > 
                 What I used in order to build this website</Card.Title>
          
-                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black", paddingLeft:"20px", float:"left"}}>
+                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black", paddingLeft:"6%", float:"left"}}>
                   
                      Editor: VSCode <br/>
                      Framework: Bootstrap <br/>
                      Open source: Node.js, Git, Github  <br/>
                      Languages: React, HTML, JavaScript, CSS <br/>
-                  
-          </Card.Text>
-      </div>
-
+                 
+            </Card.Text>
+          </div>
     </CardGroup>
-    
-<br/> <br/>
-<br/><br/> 
-<br/> <br/>
 
 
         <ContactUs/>
 
-              <br/>
-                  <p style={{textAlign:"center", fontSize:"12px"}}>
-                    <em>Desgined and developed by Hafeefa Sultan</em> 
-                  </p>
-              <br/>
+          <p style={{textAlign:"center", fontSize:"12px", paddingTop:"60px", paddingBottom:"15px"}}>
+            <em>Desgined and developed by Hafeefa Sultan</em> 
+          </p>
 
-            </Container>
-          </div>
-
+        </Container>
+      </div>
     </>
   );
 }
