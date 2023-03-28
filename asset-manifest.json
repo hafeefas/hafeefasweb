@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hafeefasweb/static/css/main.255d8b14.css",
-    "main.js": "/hafeefasweb/static/js/main.675725f2.js",
+    "main.css": "/hafeefasweb/static/css/main.6f12f305.css",
+    "main.js": "/hafeefasweb/static/js/main.a2cbe166.js",
     "static/js/787.2ec037d2.chunk.js": "/hafeefasweb/static/js/787.2ec037d2.chunk.js",
     "index.html": "/hafeefasweb/index.html",
-    "main.255d8b14.css.map": "/hafeefasweb/static/css/main.255d8b14.css.map",
-    "main.675725f2.js.map": "/hafeefasweb/static/js/main.675725f2.js.map",
+    "main.6f12f305.css.map": "/hafeefasweb/static/css/main.6f12f305.css.map",
+    "main.a2cbe166.js.map": "/hafeefasweb/static/js/main.a2cbe166.js.map",
     "787.2ec037d2.chunk.js.map": "/hafeefasweb/static/js/787.2ec037d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.255d8b14.css",
-    "static/js/main.675725f2.js"
+    "static/css/main.6f12f305.css",
+    "static/js/main.a2cbe166.js"
   ]
 }
