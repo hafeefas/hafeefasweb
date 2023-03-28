@@ -10,7 +10,7 @@ const Contactus = () => {
   return (
     
     <footer>
-      <h1 style={{textAlign:"center", fontSize:"55px", paddingBottom:"5px", paddingTop:"100px",color:"white"}} > 
+      <h1 style={{textAlign:"center", fontSize:"55px", paddingBottom:"5px", paddingTop:"105px",color:"white"}} > 
         Get In Touch 
       </h1>
         <div>
@@ -29,21 +29,22 @@ const Contactus = () => {
         <Card.Title>
         </Card.Title>
           <Card.Text>
-        <p style={{textAlign:"center", fontSize:"25px", paddingBottom:"10px",color:"black"}}> Want to work together or have any questions?</p>
+            <p style={{textAlign:"center", fontSize:"25px", paddingBottom:"10px",color:"black"}}> 
+            Want to work together or have any questions?</p>
         </Card.Text>
-        <Button variant="primary" id="contactbutton"> 
+      <Button variant="primary" id="contactbutton"> 
         <a href= "mailto:hafeefas47@gmail.com" 
           target="_blank" style={{ textDecoration:"none"}}> 
-            <div style={{ 
+            <address style={{ 
               color:"black", 
               marginLeft:"auto", 
-             marginRight:"auto",
-             paddingLeft:"60px", 
-             paddingRight:"60px", 
-             padding:"20px"}}>
-                              Email me! 
-          </div>
-        </a> 
+              marginRight:"auto",
+              paddingLeft:"60px", 
+              paddingRight:"60px", 
+              padding:"20px"}}>
+                  Email me! 
+              </address>
+            </a> 
         </Button>
       </Card.Body>
       {/* <Card.Footer className="text-muted">2 days ago</Card.Footer> */}

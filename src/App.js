@@ -18,7 +18,6 @@ function App() {
     <header
           className="image-fluid"
           style={{
-            // backgroundImage: "url('https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMjI4OTkyfHxlbnwwfHx8fA%3D%3D&w=1000&q=80')",
             backgroundImage: "url('https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio-thumbnail.jpg')",
             maxWidth:"100%",
             width: "100%",
@@ -29,19 +28,8 @@ function App() {
           }}>
 
     <Navbarr></Navbarr>
-    
-      {/* <img src ="https://t4.ftcdn.net/jpg/01/70/56/77/360_F_170567722_N73WLMvWpRXIxUa6nECmKsnZGQu3axLo.jpg"
-      style={{width:"30vh",  display: "block",
-      marginLeft: "auto",
-      marginRight: "auto"
-      }}/>
-        */}
-          <div className="image-fluid">
-           {/* <img src="https://i.pinimg.com/originals/62/ec/88/62ec886dd7b506f41c8885714a1a3dbc.jpg"
-             id="art" ></img> */}
-                         
-           
-          </div>   
+
+          <figure className="image-fluid">  </figure>   
              
                 <h3 style=
                   {{color:'white' , 
@@ -81,10 +69,10 @@ function App() {
          </h3>
       </header>
       
-      <header
+      {/* background of entire bottom half page */}
+      <figure
           className="image-fluid"
           style={{
-            // backgroundImage: "url('https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMjI4OTkyfHxlbnwwfHx8fA%3D%3D&w=1000&q=80')",
             backgroundImage: "url('https://i.pinimg.com/736x/9f/86/7d/9f867dbeead71e9d7ea096a62c3e1d59--dark-blue-wallpaper-blue-wallpapers.jpg')",
             maxWidth:"100%",
             width: "100%",
@@ -95,8 +83,6 @@ function App() {
           }}>
 
          <Container>
-
-
        {/* first card */}
 
 
@@ -137,7 +123,7 @@ function App() {
 
             {/* second card */}
 
-            <Card  id="cards" >
+          <Card  id="cards" >
               <Card.Body>
                 <Card.Title id="cardTitleSpacing">React JS, BootStrap JS</Card.Title>
                 <Card.Text>
@@ -156,9 +142,10 @@ function App() {
             <br/>
 
             {/* third card */}
-            <Card  id="cards">
-              <Card.Body>
-                <Card.Title id="cardTitleSpacing">Java</Card.Title>
+            
+          <Card  id="cards">
+            <Card.Body>
+              <Card.Title id="cardTitleSpacing">Java</Card.Title>
                 <Card.Text>
                   I use java in my cs classes, and do enjoy using it in order to build programs.
                   Though I use it in class, I would love to have real world experience
@@ -172,64 +159,6 @@ function App() {
             </Card>
           </Row>
 
-{/* <Container>
-            <div
-            className="image-fluid"
-            style={{
-              backgroundImage: "url('https://media.istockphoto.com/id/1193999908/vector/abstract-soft-waves-white-and-gray-color-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=E-h1iOxdVYZAnkfi33g932QALEEIrljWjy8z6JLhe0k=')",
-              maxWidth:"100%",
-              backgroundSize:"cover",
-              minHeight:"25vh"
-            }}>
-                <p id="a" 
-                      style={{paddingBottom:"10px",fontSize:"45px", textAlign:"center"}}>
-                      Learn more about me and my objectives!
-                </p>
-            <br/> */}
-
-{/* my own picture */}
-
-            {/* <Row>
-              <Col>
-                <div class="container">   
-                  <img src="https://media.licdn.com/dms/image/D4E03AQFKCehSPZwPmQ/profile-displayphoto-shrink_800_800/0/1674249851349?e=1680739200&v=beta&t=pIz9oADbHJRR8Uo_36pNl-ACKgcRpXbsVbcwIgFQpH8"
-                    class="image" style={{width:"48vh", border:"solid whitesmoke", paddingTop:"50px", borderRadius:"30px", marginLeft:"auto", marginRight:"auto", marginBottom:"30px"}} />
-                    </div>
-                  </Col> */}
-
-          {/* why i want to become full stack */}
-                {/* <Col>
-                    <p id="why" style={{paddingTop:"24%"}}>
-                        I am asipring full stack software engineer mainly specializing in the front end areas.
-                        I am however, knowledgable in certain areas in backend. I want to become a full stack developer
-                        because I want to learn and work with multiple technologies, and be able to see the full 
-                        picture of where the backend and frontend is used.
-                    </p> */}
-                    {/* <p id="why">
-                        I would also enjoy being a full stack developer because it would allow
-                        me to work for businesses as well as software companies. I can then 
-                        listen to business owners and collaborate with them to create and deploy an 
-                        entire solution, which I find pretty cool!
-                    </p>
-                    <p id="why">
-                        Though these are all true, I still do have a long way to go until I can reach my goal.
-                        I am currently looking for full stack, front-end, and back-end internships that will
-                        help reach my target. I love working in every aspect of front end and back end, so
-                        I would give it my all in order to reach my objectives!
-                    </p> */}
-{/*                     
-                </Col>
-              </Row>
-            </div>
-         </Container>
-  
-    <br/> <br/> <br/> <br/>
-    <br></br> <br/> <br/> */}
-
-  
-
-  {/* <Card style={{ width: '70vh', maxWidth: "50%", height: "auto"}}></Card> */}
-  
   <CardGroup>
     <section
           className="image-fluid"
@@ -245,8 +174,8 @@ function App() {
 
            
           }}>
-            <br/> <br/>
-      
+            
+      <figure>
           <img src="https://img.freepik.com/premium-photo/floating-devices-mockup-with-responsive-website-design-3d-rendering_72104-3791.jpg?w=2000" 
             style={
               {width:"60vh", 
@@ -261,10 +190,11 @@ function App() {
               marginRight:"auto",
               paddingBottom:"30px"
               }} />
-              <br/> <br/> <br/> <br/>
+              <br/> <br/> <br/>
+      </figure>
 
           {/* <Card.Body> */}
-            <Card.Title style={{color:"white", fontSize:"30px",  paddingBottom:"5px", padding:"20px", paddingLeft:"20px", float:"left", textAlign:"right"}} 
+            <Card.Title style={{paddingTop:"8px",color:"white", fontSize:"30px",  paddingBottom:"5px", padding:"20px", paddingLeft:"20px", float:"left", textAlign:"right"}} 
               > 
                 My experience with building sites and <br/> Programming </Card.Title>
          
@@ -284,8 +214,6 @@ function App() {
             width: "100%",
             backgroundSize:"cover",
             background:"cover",
-            // border:"solid whitesmoke 10px",
-            // backgroundColor:"whitesmoke",
             minHeight:"25vh",
             paddingLeft:"20px",
             borderRightRadius:"20px"
@@ -293,6 +221,7 @@ function App() {
           }}>
             <br/> <br/> <br/>
       
+      <figure>
         <img src="https://img.freepik.com/free-psd/elegant-minimalist-laptop-mockup_125540-2406.jpg?size=626&ext=jpg" 
           style={
             {width:"60vh", 
@@ -308,8 +237,9 @@ function App() {
             paddingBottom:"60px"
             }} />
             <br/> <br/> <br/> <br/>
+      </figure>
 
-          {/* <Card.Body> */}
+            <figcaption>
             <Card.Title 
               style={{color:"white", 
                       fontSize:"30px", 
@@ -328,18 +258,9 @@ function App() {
                      Languages: React, HTML, JavaScript, CSS <br/>
                  
             </Card.Text>
+            </figcaption>
           </div>
     </CardGroup>
-
-   {/* <footer className="image-fluid"
-          style={{
-            // backgroundImage: "url('https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMjI4OTkyfHxlbnwwfHx8fA%3D%3D&w=1000&q=80')",
-            maxWidth:"100%",
-            width: "100%",
-            backgroundSize:"cover",
-            background:"cover",
-            minHeight:"20vh",
-            backgroundColor:"",}}> */}
 
         <ContactUs/>
 
@@ -347,9 +268,8 @@ function App() {
             <em>Desgined and developed by Hafeefa Sultan</em> 
           </p>
 
-           {/* </footer> */}
         </Container>
-        </header>
+        </figure>
       </div>
     </>
   );
