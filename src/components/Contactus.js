@@ -10,19 +10,21 @@ const Contactus = () => {
   return (
     
     <footer>
-      <h1 style={{textAlign:"center", fontSize:"55px", paddingBottom:"5px", paddingTop:"100px",color:"black"}} > 
+      <h1 style={{textAlign:"center", fontSize:"55px", paddingBottom:"5px", paddingTop:"100px",color:"white"}} > 
         Get In Touch 
       </h1>
         <div>
           
-    <div  style={{ paddingLeft:"10px"}}></div>
+    <div style={{ paddingLeft:"10px"}}></div>
     <Card className="text-center" 
       style={{background:"white", 
       width:"70%", 
       marginLeft:"auto", 
       marginRight:"auto",
-      padding:"20px",
-      border:"solid black"}}>
+      padding:"40px",
+      border:"solid black",
+      borderRadius:"10px"}}>
+
       <Card.Body>
         <Card.Title>
         </Card.Title>
@@ -55,7 +57,7 @@ const Contactus = () => {
           <a href="https://github.com/hafeefas" 
           target="_blank" 
           // className="resume" 
-          style={{color:"black", textDecoration:"none"}}>
+          style={{color:"white", textDecoration:"none"}}>
             <p style={{fontSize:"25px", textAlign:"center"}}>Github</p> 
               </a>     
            </Col>
@@ -64,7 +66,7 @@ const Contactus = () => {
           <a href ="https://docs.google.com/document/d/1ImeRckQpQiwg_0XFUt8ViyBqMJlgxy0c6X7HdazpRAQ/edit"
           target="_blank" 
           className="resume" 
-          style={{color:"black", textDecoration:"none"}} > 
+          style={{color:"white", textDecoration:"none"}} > 
             <p style={{fontSize:"24.7px", textAlign:"center"}}>Resume</p> 
           </a>  
           </Col>
@@ -73,7 +75,7 @@ const Contactus = () => {
         <a href="https://www.linkedin.com/in/hafeefa-sultan-1a3785227/" 
           target="_blank" 
           // className="resume" 
-          style={{color:"black", textDecoration:"none"}}>
+          style={{color:"white", textDecoration:"none"}}>
             <p style={{fontSize:"24.4px", textAlign:"center"}}>Linkedin</p> 
               </a>     
         </Col>

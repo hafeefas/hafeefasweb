@@ -316,7 +316,6 @@ s:hover::before {
   height: 30px;
   display: block;
   margin-left: 2%;
-  float: center;
 
   background: linear-gradient(to right, black 50%, white 50%);
   background-size: 200% 100%;

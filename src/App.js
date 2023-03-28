@@ -49,7 +49,7 @@ function App() {
                   paddingLeft:"30px" ,
                   borderRadius:"20px", 
                   paddingTop:"250px",
-                  paddingBottom:"270px"}}
+                  paddingBottom:"160px"}}
                   > 
                   <h1 style={{paddingBottom:"20px", fontSize:"50px", paddingLeft:"6%", display:"flex", justifyContent:"left"}}>
                     Aspiring Developer.
@@ -80,7 +80,20 @@ function App() {
             <br/>
          </h3>
       </header>
-             
+      
+      <header
+          className="image-fluid"
+          style={{
+            // backgroundImage: "url('https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMjI4OTkyfHxlbnwwfHx8fA%3D%3D&w=1000&q=80')",
+            backgroundImage: "url('https://i.pinimg.com/736x/9f/86/7d/9f867dbeead71e9d7ea096a62c3e1d59--dark-blue-wallpaper-blue-wallpapers.jpg')",
+            maxWidth:"100%",
+            width: "100%",
+            backgroundSize:"cover",
+            background:"cover",
+            minHeight:"25vh",
+            backgroundColor:"whitesmoke",
+          }}>
+
          <Container>
 
 
@@ -251,11 +264,11 @@ function App() {
               <br/> <br/> <br/> <br/>
 
           {/* <Card.Body> */}
-            <Card.Title style={{color:"black", fontSize:"30px",  paddingBottom:"5px", padding:"20px", paddingLeft:"20px", float:"left", textAlign:"right"}} 
+            <Card.Title style={{color:"white", fontSize:"30px",  paddingBottom:"5px", padding:"20px", paddingLeft:"20px", float:"left", textAlign:"right"}} 
               > 
                 My experience with building sites and <br/> Programming </Card.Title>
          
-                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black", paddingLeft:"20px", float:"left", textAlign:"right"}}>
+                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"white", paddingLeft:"20px", float:"left", textAlign:"right"}}>
                   
                     9 months experience with front end development <br/>
                     One web development certificate (Break Through Tech) <br/>
@@ -298,7 +311,7 @@ function App() {
 
           {/* <Card.Body> */}
             <Card.Title 
-              style={{color:"black", 
+              style={{color:"white", 
                       fontSize:"30px", 
                       paddingBottom:"5px",  
                       padding:"20px", 
@@ -307,7 +320,7 @@ function App() {
               > 
                 What I used in order to build this website</Card.Title>
          
-                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"black", paddingLeft:"6%", float:"left"}}>
+                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"white", paddingLeft:"6%", float:"left"}}>
                   
                      Editor: VSCode <br/>
                      Framework: Bootstrap <br/>
@@ -318,14 +331,25 @@ function App() {
           </div>
     </CardGroup>
 
+   {/* <footer className="image-fluid"
+          style={{
+            // backgroundImage: "url('https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMjI4OTkyfHxlbnwwfHx8fA%3D%3D&w=1000&q=80')",
+            maxWidth:"100%",
+            width: "100%",
+            backgroundSize:"cover",
+            background:"cover",
+            minHeight:"20vh",
+            backgroundColor:"",}}> */}
 
         <ContactUs/>
 
-          <p style={{textAlign:"center", fontSize:"12px", paddingTop:"60px", paddingBottom:"15px"}}>
+          <p style={{textAlign:"center", color:"white",fontSize:"12px", paddingTop:"60px", paddingBottom:"15px"}}>
             <em>Desgined and developed by Hafeefa Sultan</em> 
           </p>
 
+           {/* </footer> */}
         </Container>
+        </header>
       </div>
     </>
   );
