@@ -35,7 +35,7 @@ const Contactus = () => {
       <Button variant="primary" id="contactbutton"> 
         <a href= "mailto:hafeefas47@gmail.com" 
           target="_blank" style={{ textDecoration:"none"}}> 
-            <address style={{ 
+            <div style={{ 
               color:"black", 
               marginLeft:"auto", 
               marginRight:"auto",
@@ -43,7 +43,7 @@ const Contactus = () => {
               paddingRight:"60px", 
               padding:"20px"}}>
                   Email me! 
-              </address>
+              </div>
             </a> 
         </Button>
       </Card.Body>
