@@ -18,7 +18,7 @@ function App() {
     <header
           className="image-fluid"
           style={{
-            backgroundImage: "url('https://get.wallhere.com/photo/computer-keyboards-1150906.jpg')",
+            backgroundImage: "url('https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio-thumbnail.jpg')",
             maxWidth:"100%",
             width: "100%",
             backgroundSize:"cover",
