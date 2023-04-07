@@ -113,7 +113,7 @@
   background-color: black;
 }
 #basic-navbar-nav{
-  margin:auto 85%;
+  margin:auto 75%;
 }
 div{
 visibility: visible;
@@ -212,8 +212,11 @@ s:hover::before {
    text-align:center;
    margin-Top:40px;
    border:solid whitesmoke;   
-   
 } 
+#secondcards{
+  border:solid whitesmoke;   
+}
+
 #darkerpink{
   color:  #E2216A;
 }
@@ -305,7 +308,7 @@ s:hover::before {
   background: black;
 }
 .outer {
-  margin: 50px;
+  padding: 50px;
 }
 
 .button {
@@ -313,6 +316,7 @@ s:hover::before {
   border: 1px solid black;
   border-radius: 5px;
   width: 400px;
+  max-width: 300px;
   height: 30px;
   display: block;
   margin-left: 2%;

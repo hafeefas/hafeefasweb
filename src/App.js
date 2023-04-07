@@ -159,6 +159,7 @@ function App() {
             </Card>
           </Row>
 
+ 
   <CardGroup>
     <section
           className="image-fluid"
@@ -194,15 +195,17 @@ function App() {
       </figure>
 
           {/* <Card.Body> */}
-            <Card.Title style={{paddingTop:"8px",color:"white", fontSize:"30px",  paddingBottom:"5px", padding:"20px", paddingLeft:"20px", float:"left", textAlign:"right"}} 
+            <Card.Title style={{paddingTop:"20px", paddingRight:"22px",color:"white", fontSize:"30px",  paddingBottom:"5px", padding:"20px", paddingLeft:"30px"}} 
               > 
-                My experience with building sites and <br/> Programming </Card.Title>
+                 Experience with Web Development and Programming 
+              </Card.Title>
          
-                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"white", paddingLeft:"20px", float:"left", textAlign:"right"}}>
+                <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"white", paddingLeft:"40px"}}>
                   
                     9 months experience with front end development <br/>
                     One web development certificate (Break Through Tech) <br/>
-                    Over 1 year's experience with building programs with java <br/>                  
+                    Over 1 year's experience with building programs with java <br/>              
+                        
                 </Card.Text>
       </section>
 
