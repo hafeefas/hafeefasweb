@@ -28,13 +28,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 #navhov{
  background-color: white;
  border:solid black;
  padding: 18px;
  transition: 0.5s ease;
- border-radius: 30px;
+ border-radius: 10px;
 } 
 #navhov:hover{
   border-color: black;
@@ -42,6 +41,8 @@
   color: rgb(255, 255, 255);
     /* background: pink; */
     background-color: rgb(165, 165, 165);
+    /* rgb(165, 165, 165); for gray*/
+    /* #61dafb  for blue*/
 
     opacity: 0.3s;
 }
@@ -343,6 +344,7 @@ s:hover::before {
 .text:hover {
   color: white;  
   background-color: #61dafb;
+  
 }
 
 
@@ -366,14 +368,11 @@ s:hover::before {
 #contactbutton{
   font-size: 25px;
   border:solid black;
-  background-color: whitesmoke;
+  background-color: white;
   text-decoration: underline;
-  /* background-color: pink; */
-  /* background: rgb(255, 185, 197); */
   padding: 10px;
   transition: 0.5s ease;
   border-radius: 7px;
-  /* color:pink; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -381,6 +380,7 @@ s:hover::before {
   border-color: black;
   
     background:rgb(165, 165, 165);
+    /* last background hover color: rgb(165, 165, 165) */
     opacity: 0.2s;
    
   }

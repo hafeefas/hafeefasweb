@@ -18,7 +18,7 @@ function App() {
     <header
           className="image-fluid"
           style={{
-            backgroundImage: "url('https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio-thumbnail.jpg')",
+            backgroundImage: "url('https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-development.jpg')",
             maxWidth:"100%",
             width: "100%",
             backgroundSize:"cover",
@@ -36,7 +36,7 @@ function App() {
                   fontSize:"55px", 
                   paddingLeft:"30px" ,
                   borderRadius:"20px", 
-                  paddingTop:"250px",
+                  paddingTop:"223px",
                   paddingBottom:"160px"}}
                   > 
                   <h1 style={{paddingBottom:"20px", fontSize:"50px", paddingLeft:"6%", display:"flex", justifyContent:"left"}}>
@@ -62,7 +62,7 @@ function App() {
 
             <div class="outer">
                 <div class="button">
-                  <div class="text"> <a href = "https://github.com/hafeefas" target = "_blank" style={{textDecoration:"none"}}>Find my code </a></div>
+                  <div class="text"> <a href = "https://github.com/hafeefas/hafeefasweb" target = "_blank" style={{textDecoration:"none"}}>Find website code </a></div>
                 </div>
               </div>
             <br/>
@@ -83,8 +83,8 @@ function App() {
           }}>
 
          <Container>
-       {/* first card */}
 
+       {/* first card */}
 
   <Row style= {{paddingTop:"170px", paddingBottom:"200px"}}>
     <article id="graybackground" style={{paddingTop:"30px"}}>
@@ -158,7 +158,6 @@ function App() {
               </Card.Body>
             </Card>
           </Row>
-
  
   <CardGroup>
     <section
@@ -251,7 +250,7 @@ function App() {
                       paddingLeft:"5%", 
                       float:"left"}} 
               > 
-                What I used in order to build this website</Card.Title>
+                What I used to build this website</Card.Title>
          
                 <Card.Text style={{paddingTop:"10px", fontSize:"20px", color:"white", paddingLeft:"6%", float:"left"}}>
                   

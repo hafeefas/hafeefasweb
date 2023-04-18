@@ -12,8 +12,8 @@ function CollapsibleExample() {
                 target="_blank" 
                  style={{ textDecoration:"none"}}
                  id="navhov">
-                 <em 
-               style={{color:"black"}}> Contact me </em> 
+                 <strong 
+               style={{color:"black"}}> Email me </strong> 
              </a> 
            </Navbar.Brand> 
         <Nav>

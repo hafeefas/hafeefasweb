@@ -35,19 +35,20 @@ const Contactus = () => {
       <Button variant="primary" id="contactbutton"> 
         <a href= "mailto:hafeefas47@gmail.com" 
           target="_blank" style={{ textDecoration:"none"}}> 
+          <strong>
             <div style={{ 
               color:"black", 
               marginLeft:"auto", 
               marginRight:"auto",
-              paddingLeft:"60px", 
-              paddingRight:"60px", 
-              padding:"20px"}}>
-                  Email me! 
+              paddingLeft:"50px", 
+              paddingRight:"50px", 
+              padding:"12px"}}>
+                  Email me
               </div>
+              </strong>
             </a> 
         </Button>
       </Card.Body>
-      {/* <Card.Footer className="text-muted">2 days ago</Card.Footer> */}
     </Card>
         </div>
 
