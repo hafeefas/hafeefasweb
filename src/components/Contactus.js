@@ -65,7 +65,7 @@ const Contactus = () => {
            </Col>
 
         <Col md="auto">
-          <a href ="https://docs.google.com/document/d/1ImeRckQpQiwg_0XFUt8ViyBqMJlgxy0c6X7HdazpRAQ/edit"
+          <a href ="https://docs.google.com/document/d/1Qn0aeQRGSuGKE8bYT-TRntThaUZkuQ2_AVJRD2eoMD0/edit"
           target="_blank" 
           className="resume" 
           style={{color:"white", textDecoration:"none"}} > 
